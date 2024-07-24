@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <row>
+        <customer>
+            <custNumber>603112</custNumber>
+            <custCategory>Individuals</custCategory>
+            <custRelation>Primary Account Holders</custRelation>
+            <resident>1</resident>
+            <nationality>4</nationality>
+            <creditRating>A</creditRating>
+            <moneyLaundryRisk>Medium</moneyLaundryRisk>
+            <moneyLaundryReason>Multiple high value cash transactions</moneyLaundryReason>
+            <entityType>Bank</entityType>
+            <person>
+                <personTitle>MANAGER</personTitle>
+                <personName>Sakha</personName>
+                <suffix>TEST</suffix>
+                <birthday>2001-01-03T17:00:00.000+00:00</birthday>
+                <placeOfBirth>Jakarta</placeOfBirth>
+                <gender>MALE</gender>
+                <address>
+                    <addressType>home</addressType>
+                    <country>INDONESIA</country>
+                    <addressName>Jalan Raya Puncak</addressName>
+                    <region>Jawa Barat</region>
+                    <city>Jakarta</city>
+                    <street>Jalan Raya</street>
+                    <house>LEWIPANJANG</house>
+                    <apartment>310</apartment>
+                    <postalCode>11460</postalCode>
+                    <placeCode>11460</placeCode>
+                    <regionCode>360</regionCode>
+                    <latitude>100</latitude>
+                    <longitude>100</longitude>
+                </address>
+                <personDetails>
+                    <surname>Rakha</surname>
+                    <firstName>Sakha</firstName>
+                    <secondName>Kartika</secondName>
+                </personDetails>
+            </person>
+            <cardList>
+                <cardNumber>6034940093100432</cardNumber>
+                <cardMask>603494****04588</cardMask>
+                <cardId>12</cardId>
+                <cardIssDate>2018-07-19T17:00:00.000+00:00</cardIssDate>
+                <cardStartDate>2018-07-19T17:00:00.000+00:00</cardStartDate>
+                <expirationDate>2018-07-19T17:00:00.000+00:00</expirationDate>
+                <instanceId>2</instanceId>
+                <precedingInstanceId>2</precedingInstanceId>
+                <sequentialNumber>1</sequentialNumber>
+                <cardStatus>CSTS_0002</cardStatus>
+                <cardState>CTSE0202</cardState>
+                <category>CRCG0202</category>
+                <pvv>6733</pvv>
+                <pinOffset>2</pinOffset>
+                <pinUpdateFlag>true</pinUpdateFlag>
+                <cardTypeId>2</cardTypeId>
+                <prevCardNumber>601908010123122</prevCardNumber>
+                <prevCardId>601908010123122</prevCardId>
+                <agentNumber>50010102</agentNumber>
+                <agentName>Nur Hamdalah Kahf</agentName>
+                <productNumber>02</productNumber>
+                <productName>02_MPIC - MP INSTANT CLASSIC</productName>
+                <companyName>Bank Hexaon</companyName>
+                <serviceCode>ISO/IEC7812</serviceCode>
+            </cardList>
+            <cardList>
+                <cardNumber>6034940093100436</cardNumber>
+                <cardMask>603494****04588</cardMask>
+                <cardId>12</cardId>
+                <cardIssDate>2018-07-19T17:00:00.000+00:00</cardIssDate>
+                <cardStartDate>2018-07-19T17:00:00.000+00:00</cardStartDate>
+                <expirationDate>2018-07-19T17:00:00.000+00:00</expirationDate>
+                <instanceId>2</instanceId>
+                <precedingInstanceId>2</precedingInstanceId>
+                <sequentialNumber>1</sequentialNumber>
+                <cardStatus>CSTS_0002</cardStatus>
+                <cardState>CTSE0202</cardState>
+                <category>CRCG0202</category>
+                <pvv>6733</pvv>
+                <pinOffset>2</pinOffset>
+                <pinUpdateFlag>true</pinUpdateFlag>
+                <cardTypeId>2</cardTypeId>
+                <prevCardNumber>601908010123122</prevCardNumber>
+                <prevCardId>601908010123122</prevCardId>
+                <agentNumber>50010102</agentNumber>
+                <agentName>Nur Hamdalah Kahf</agentName>
+                <productNumber>02</productNumber>
+                <productName>02_MPIC - MP INSTANT CLASSIC</productName>
+                <companyName>Bank Hexaon</companyName>
+                <serviceCode>ISO/IEC7812</serviceCode>
+            </cardList>
+            <accountList>
+                <accountNumber>54851118632</accountNumber>
+                <currency>361</currency>
+                <accountType>ACTP0100</accountType>
+                <accountStatus>ACSTACTV</accountStatus>
+            </accountList>
+        </customer>
+    </row>
+</root>

@@ -1,0 +1,425 @@
+<configuration>
+    <property name="ROOT-FILE-NAME" value="newLogs/root/new-root-app"/>
+    <property name="ISO8583-CHANNEL-FILE-NAME" value="newLogs/ISO8583/channel/channel-iso8583"/>
+    <property name="JSON-CHANNEL-FILE-NAME" value="newLogs/JSON/channel/channel-json"/>
+    <property name="OLIBS-JSON-CHANNEL-FILE-NAME" value="newLogs/JSON/channel/olibs-channel-json"/>
+    <property name="ISO8583-TRX-FILE-NAME" value="newLogs/ISO8583/transaction/trx-iso8583"/>
+    <property name="JSON-TRX-FILE-NAME" value="newLogs/JSON/transaction/trx-json"/>
+    <property name="OLIBS-JSON-TRX-FILE-NAME" value="newLogs/JSON/transaction/olibs-trx-json"/>
+    <property name="FRAUD-DETECT-FILE-NAME" value="newLogs/fraud/fraud-app"/>
+
+    <property name="REACTION-FILE-NAME" value="newLogs/reaction/main/reaction-app"/>
+    <property name="CREATE-ALERT-FILE-NAME" value="newLogs/reaction/alert/alert"/>
+    <property name="EMAIL-NOTIF-FILE-NAME" value="newLogs/reaction/email/email"/>
+    <property name="WHITE-LIST-FILE-NAME" value="newLogs/reaction/white-list/white-list"/>
+    <property name="BLACK-LIST-FILE-NAME" value="newLogs/reaction/black-list/black-list"/>
+    <property name="FRAUD-LIST-FILE-NAME" value="newLogs/reaction/fraud-list/fraud-list"/>
+
+    <property name="DEF_U-FILE-NAME" value="newLogs/def_u/def_u"/>
+    <property name="UPLOAD-WHITE-FILE-NAME" value="newLogs/upload/white/u-white"/>
+    <property name="UPLOAD-BLACK-FILE-NAME" value="newLogs/upload/black/u-black"/>
+    <property name="UPLOAD-FVALUE-FILE-NAME" value="newLogs/upload/f-value/u-value"/>
+
+    <property name="DB-FILE-NAME" value="newLogs/db/db-app"/>
+    <property name="ERROR-FILE-NAME" value="newLogs/error/error-app"/>
+
+    <!--  Channel Engine  -->
+    <appender name="ISO8583-CHANNEL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${ISO8583-CHANNEL-FILE-NAME}.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${ISO8583-CHANNEL-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="JSON-CHANNEL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${JSON-CHANNEL-FILE-NAME}.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${JSON-CHANNEL-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+<!--    <appender name="OLIBS-JSON-CHANNEL" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <file>${OLIBS-JSON-CHANNEL-FILE-NAME}.log</file>-->
+<!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+<!--            <level>INFO</level>-->
+<!--            <onMatch>ACCEPT</onMatch>-->
+<!--            <onMismatch>DENY</onMismatch>-->
+<!--        </filter>-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">-->
+<!--            <fileNamePattern>${OLIBS-JSON-CHANNEL-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>-->
+<!--            <maxFileSize>100MB</maxFileSize>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder>-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+    <!--  Transaction Engine  -->
+    <appender name="ISO8583-TRX" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${ISO8583-TRX-FILE-NAME}.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${ISO8583-TRX-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="JSON-TRX" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${JSON-TRX-FILE-NAME}.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${JSON-TRX-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+<!--    <appender name="OLIBS-JSON-TRX" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <file>${OLIBS-JSON-TRX-FILE-NAME}.log</file>-->
+<!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+<!--            <level>INFO</level>-->
+<!--            <onMatch>ACCEPT</onMatch>-->
+<!--            <onMismatch>DENY</onMismatch>-->
+<!--        </filter>-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">-->
+<!--            <fileNamePattern>${OLIBS-JSON-TRX-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>-->
+<!--            <maxFileSize>100MB</maxFileSize>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder>-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+    <!--    Fraud Detect Engine-->
+    <appender name="FRAUD-DETECT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${FRAUD-DETECT-FILE-NAME}.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${FRAUD-DETECT-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--    Reaction Engine-->
+    <appender name="REACTION-ENGINE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${REACTION-FILE-NAME}.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${REACTION-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="CREATE-ALERT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${CREATE-ALERT-FILE-NAME}.log</file>
+        <!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+        <!--            <level>INFO</level>-->
+        <!--            <onMatch>ACCEPT</onMatch>-->
+        <!--            <onMismatch>DENY</onMismatch>-->
+        <!--        </filter>-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${CREATE-ALERT-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="EMAIL-NOTIF" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${EMAIL-NOTIF-FILE-NAME}.log</file>
+        <!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+        <!--            <level>INFO</level>-->
+        <!--            <onMatch>ACCEPT</onMatch>-->
+        <!--            <onMismatch>DENY</onMismatch>-->
+        <!--        </filter>-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${EMAIL-NOTIF-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="WHITE-LIST" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${WHITE-LIST-FILE-NAME}.log</file>
+        <!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+        <!--            <level>INFO</level>-->
+        <!--            <onMatch>ACCEPT</onMatch>-->
+        <!--            <onMismatch>DENY</onMismatch>-->
+        <!--        </filter>-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${WHITE-LIST-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="BLACK-LIST" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${BLACK-LIST-FILE-NAME}.log</file>
+        <!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+        <!--            <level>INFO</level>-->
+        <!--            <onMatch>ACCEPT</onMatch>-->
+        <!--            <onMismatch>DENY</onMismatch>-->
+        <!--        </filter>-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${BLACK-LIST-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FRAUD-LIST" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${FRAUD-LIST-FILE-NAME}.log</file>
+        <!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+        <!--            <level>INFO</level>-->
+        <!--            <onMatch>ACCEPT</onMatch>-->
+        <!--            <onMismatch>DENY</onMismatch>-->
+        <!--        </filter>-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${FRAUD-LIST-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--    DEF_U-->
+    <appender name="DEF-U" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${DEF_U-FILE-NAME}.log</file>
+        <!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+        <!--            <level>INFO</level>-->
+        <!--            <onMatch>ACCEPT</onMatch>-->
+        <!--            <onMismatch>DENY</onMismatch>-->
+        <!--        </filter>-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${DEF_U-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--    UPLOAD HANDLER-->
+    <appender name="UPLOAD-WHITE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${UPLOAD-WHITE-FILE-NAME}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${UPLOAD-WHITE-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="UPLOAD-BLACK" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${UPLOAD-BLACK-FILE-NAME}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${UPLOAD-BLACK-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="UPLOAD-F-VALUE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${UPLOAD-FVALUE-FILE-NAME}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${UPLOAD-FVALUE-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--    DB-->
+    <appender name="DB" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${DB-FILE-NAME}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${DB-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--    Error-->
+    <appender name="ERROR-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${ERROR-FILE-NAME}.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${ERROR-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!--  Root Appender  -->
+    <appender name="ROOT-APPENDER" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${ROOT-FILE-NAME}.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${ROOT-FILE-NAME}.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>100MB</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%X{req_id}] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root logger -->
+    <root level="info">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="ROOT-APPENDER"/>
+    </root>
+
+    <!--  Channel Engine Logger  -->
+    <logger name="hbm.fraudDetectionSystem.ChannelEngine.Core.ISO8583">
+        <appender-ref ref="ISO8583-CHANNEL"/>
+    </logger>
+    <logger name="hbm.fraudDetectionSystem.ChannelEngine.Core.ISO8583">
+        <appender-ref ref="ERROR-LOG"/>
+    </logger>
+
+    <logger name="hbm.fraudDetectionSystem.ChannelEngine.Core.JSON">
+        <appender-ref ref="JSON-CHANNEL"/>
+    </logger>
+
+    <logger name="hbm.fraudDetectionSystem.TransactionEngine.Core.JSON.Core.Phase2.JSONOlibsInit">
+        <appender-ref ref="JSON-CHANNEL"/>
+    </logger>
+
+    <!--  Trx Engine Logger  -->
+    <logger name="hbm.fraudDetectionSystem.TransactionEngine.Core.ISO8583.Core">
+        <appender-ref ref="ISO8583-TRX"/>
+    </logger>
+
+    <logger name="hbm.fraudDetectionSystem.TransactionEngine.Core.JSON.Core">
+        <appender-ref ref="JSON-TRX"/>
+    </logger>
+
+    <!--  Fraud Detect Logger  -->
+    <logger name="hbm.fraudDetectionSystem.TransactionEngine.Core.Fraud">
+        <appender-ref ref="FRAUD-DETECT"/>
+    </logger>
+
+    <logger name="hbm.fraudDetectionSystem.RuleEngine.Core">
+        <appender-ref ref="FRAUD-DETECT"/>
+    </logger>
+
+    <!--  DEF_U Logger  -->
+    <logger name="DEF-U">
+        <appender-ref ref="DEF-U"/>
+    </logger>
+
+    <!--  Upload Handler Logger  -->
+    <logger name="U-WHITE">
+        <appender-ref ref="UPLOAD-WHITE"/>
+    </logger>
+
+    <logger name="U-BLACK">
+        <appender-ref ref="UPLOAD-BLACK"/>
+    </logger>
+
+    <logger name="U-F-VALUE">
+        <appender-ref ref="UPLOAD-F-VALUE"/>
+    </logger>
+
+    <!--  DB Logger  -->
+    <logger name="org.hibernate.SQL_SLOW" level="info">
+        <appender-ref ref="DB"/>
+    </logger>
+
+    <logger name="hbm.fraudDetectionSystem.ApplicationParameters.SpringLogic.AppConfiguration.JDBCSlowQueryAspect"
+            level="info">
+        <appender-ref ref="DB"/>
+    </logger>
+
+    <!--  Error Logger  -->
+    <logger name="hbm.fraudDetectionSystem">
+        <appender-ref ref="ERROR-LOG"/>
+    </logger>
+
+    <!--  Reaction Engine Logger  -->
+    <logger name="hbm.fraudDetectionSystem.ReactionEngine.Core.ReactionEngine">
+        <appender-ref ref="REACTION-ENGINE"/>
+    </logger>
+    <logger name="hbm.fraudDetectionSystem.ReactionEngine.Core.ReactionType.CreateAlert">
+        <appender-ref ref="CREATE-ALERT"/>
+    </logger>
+    <logger name="hbm.fraudDetectionSystem.ReactionEngine.Core.ReactionType.EmailNotification">
+        <appender-ref ref="EMAIL-NOTIF"/>
+    </logger>
+    <logger name="hbm.fraudDetectionSystem.ReactionEngine.Core.ReactionType.PutToWhiteList">
+        <appender-ref ref="WHITE-LIST"/>
+    </logger>
+    <logger name="hbm.fraudDetectionSystem.ReactionEngine.Core.ReactionType.PutToBlackList">
+        <appender-ref ref="BLACK-LIST"/>
+    </logger>
+    <logger name="hbm.fraudDetectionSystem.ReactionEngine.Core.ReactionType.PutToFraudList">
+        <appender-ref ref="FRAUD-LIST"/>
+    </logger>
+</configuration>

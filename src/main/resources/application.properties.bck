@@ -1,0 +1,58 @@
+#Dev NTBS
+#spring.datasource.url=jdbc:postgresql://10.10.10.101:5432/ntbs-dev_1.0.3
+#spring.datasource.username=fdsdev
+#spring.datasource.password=admin128
+
+#Prod NTBS
+spring.datasource.url=jdbc:postgresql://10.10.10.242:5432/ntbs-prod-1.0.1
+spring.datasource.username=postgres
+spring.datasource.password=itoperation@128
+
+server.port=8383
+spring.jpa.hibernate.ddl-auto=update
+spring.data.jdbc.repositories.enabled=false
+spring.jpa.properties.hibernate.format_sql=true
+
+
+#Hibernate Logging
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.session.events.log.LOG_QUERIES_SLOWER_THAN_MS=10000
+spring.jdbc.template.log.LOG_QUERIES_SLOWER_THAN_MS=10000
+
+#logging.level.org.hibernate.SQL=DEBUG
+#logging.level.org.hibernate.type.descriptor.sql.BasicBinder=TRACE
+
+#Postgres Config
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+jwt.secret='[a-zA-Z0-9._]^+$Guidelines89797987forAlphabeticalArraNumeralsandOtherSymbo$'
+
+spring.jpa.open-in-view=false
+
+spring.servlet.multipart.enabled=true
+
+# Threshold after which files are written to disk.
+spring.servlet.multipart.file-size-threshold=2KB
+# Max file size.
+spring.servlet.multipart.max-file-size=20MB
+# Max Request Size
+spring.servlet.multipart.max-request-size=20MB
+
+#EmailConfigurations
+#spring.mail.host=smtp.ipage.com
+#spring.mail.port=587
+#spring.mail.username=frauddetectionsystem@hbm.co.id
+#spring.mail.password=Fds%%123
+#spring.mail.properties.mail.smtp.auth=true
+
+#Scheduler Configuration
+demografi.delay.interval=5000
+
+#http header max length
+server.max-http-header-size=10MB
+
+#JSON base endpoint
+json.baseEndpoint.path=/fds/v2, /fds/Api/v1/Product
+
+#Custom banner
+spring.banner.location=ntbs-banner.txt

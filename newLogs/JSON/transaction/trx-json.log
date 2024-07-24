@@ -1,0 +1,177 @@
+2024-07-24 14:18:26.368 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - Start executing OLIBS Jobs
+2024-07-24 14:18:26.794 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - Fetching auth token
+2024-07-24 14:18:27.383 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - [97a2fe9c] REGISTERED
+2024-07-24 14:18:27.427 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - [97a2fe9c] CONNECT: /127.0.0.1:7543
+2024-07-24 14:18:27.532 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - [97a2fe9c] CLOSE
+2024-07-24 14:18:27.543 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:18:27.548 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - [97a2fe9c] UNREGISTERED
+2024-07-24 14:18:27.549 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 14:18:27.687 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - [468192b5] REGISTERED
+2024-07-24 14:18:27.690 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - [468192b5] CONNECT: /127.0.0.1:7543
+2024-07-24 14:18:27.693 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - [468192b5] CLOSE
+2024-07-24 14:18:27.696 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:18:27.697 INFO  [3e3476c9-1d01-4da7-a5c6-c39de38aec0d] - [468192b5] UNREGISTERED
+2024-07-24 14:20:39.039 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - Start executing OLIBS Jobs
+2024-07-24 14:20:39.117 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - Fetching auth token
+2024-07-24 14:20:52.815 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - [2a5a18bc] REGISTERED
+2024-07-24 14:20:54.979 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - [2a5a18bc] CONNECT: /127.0.0.1:7543
+2024-07-24 14:20:55.385 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - [2a5a18bc] CLOSE
+2024-07-24 14:20:55.735 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:20:55.772 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - [2a5a18bc] UNREGISTERED
+2024-07-24 14:20:55.788 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 14:20:56.129 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - [d47d8015] REGISTERED
+2024-07-24 14:20:56.132 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - [d47d8015] CONNECT: /127.0.0.1:7543
+2024-07-24 14:20:56.135 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - [d47d8015] CLOSE
+2024-07-24 14:20:56.138 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - [d47d8015] UNREGISTERED
+2024-07-24 14:20:56.161 INFO  [1fcf0fa2-794a-4ef5-a527-0659bd9c027d] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:25:25.266 INFO  [e75fb787-ec04-45c9-a2d1-199844b7c4b2] - Start executing OLIBS Jobs
+2024-07-24 14:25:26.239 INFO  [e75fb787-ec04-45c9-a2d1-199844b7c4b2] - Fetching auth token
+2024-07-24 14:25:57.707 INFO  [e75fb787-ec04-45c9-a2d1-199844b7c4b2] - Request timeout
+2024-07-24 14:26:00.239 INFO  [e75fb787-ec04-45c9-a2d1-199844b7c4b2] - [a0f223b6] REGISTERED
+2024-07-24 14:26:04.855 INFO  [e75fb787-ec04-45c9-a2d1-199844b7c4b2] - [a0f223b6] CONNECT: /127.0.0.1:7543
+2024-07-24 14:26:04.923 INFO  [e75fb787-ec04-45c9-a2d1-199844b7c4b2] - [a0f223b6] CLOSE
+2024-07-24 14:26:05.347 INFO  [e75fb787-ec04-45c9-a2d1-199844b7c4b2] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:26:05.385 INFO  [e75fb787-ec04-45c9-a2d1-199844b7c4b2] - [a0f223b6] UNREGISTERED
+2024-07-24 14:29:43.018 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - Start executing OLIBS Jobs
+2024-07-24 14:29:43.091 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - Fetching auth token
+2024-07-24 14:29:53.866 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - [f2289c40] REGISTERED
+2024-07-24 14:29:53.994 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - [f2289c40] CONNECT: /127.0.0.1:7543
+2024-07-24 14:29:54.013 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - [f2289c40] CLOSE
+2024-07-24 14:29:54.139 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:29:54.157 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 14:29:54.178 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - [d99d03b4] REGISTERED
+2024-07-24 14:29:54.248 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - [d99d03b4] CONNECT: /127.0.0.1:7543
+2024-07-24 14:29:54.164 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - [f2289c40] UNREGISTERED
+2024-07-24 14:29:54.289 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - [d99d03b4] CLOSE
+2024-07-24 14:29:54.292 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:29:54.320 INFO  [fb30510a-a175-4d2c-a4bc-9a7e1485e317] - [d99d03b4] UNREGISTERED
+2024-07-24 14:30:00.046 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - Start executing OLIBS Jobs
+2024-07-24 14:30:00.222 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - Fetching auth token
+2024-07-24 14:30:00.232 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - [3499bdae] REGISTERED
+2024-07-24 14:30:00.236 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - [3499bdae] CONNECT: /127.0.0.1:7543
+2024-07-24 14:30:00.239 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - [3499bdae] CLOSE
+2024-07-24 14:30:00.245 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:30:00.246 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - [3499bdae] UNREGISTERED
+2024-07-24 14:30:00.246 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 14:30:00.255 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - [f1c5c113] REGISTERED
+2024-07-24 14:30:00.259 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - [f1c5c113] CONNECT: /127.0.0.1:7543
+2024-07-24 14:30:00.264 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - [f1c5c113] CLOSE
+2024-07-24 14:30:00.267 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:30:00.269 INFO  [4bcc4bd0-0946-40a3-a158-4b92dace9a86] - [f1c5c113] UNREGISTERED
+2024-07-24 14:47:47.529 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - Start executing OLIBS Jobs
+2024-07-24 14:47:47.652 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - Fetching auth token
+2024-07-24 14:47:55.078 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - [3b07e55f] REGISTERED
+2024-07-24 14:47:55.235 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - [3b07e55f] CONNECT: /127.0.0.1:7543
+2024-07-24 14:47:55.328 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - [3b07e55f] CLOSE
+2024-07-24 14:47:55.456 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:47:55.467 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 14:47:55.474 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - [3b07e55f] UNREGISTERED
+2024-07-24 14:47:55.508 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - [660d5072] REGISTERED
+2024-07-24 14:47:55.519 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - [660d5072] CONNECT: /127.0.0.1:7543
+2024-07-24 14:47:55.523 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - [660d5072] CLOSE
+2024-07-24 14:47:55.525 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:47:55.527 INFO  [d9f7777b-e83b-4fcb-98d2-b821733c9707] - [660d5072] UNREGISTERED
+2024-07-24 14:57:53.200 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - Start executing OLIBS Jobs
+2024-07-24 14:57:53.259 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - Fetching auth token
+2024-07-24 14:57:58.324 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - [60ac0a13] REGISTERED
+2024-07-24 14:57:58.458 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - [60ac0a13] CONNECT: /127.0.0.1:7543
+2024-07-24 14:57:58.488 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - [60ac0a13] CLOSE
+2024-07-24 14:57:58.624 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:57:58.631 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 14:57:58.656 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - [f8f4cc33] REGISTERED
+2024-07-24 14:57:58.655 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - [60ac0a13] UNREGISTERED
+2024-07-24 14:57:58.660 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - [f8f4cc33] CONNECT: /127.0.0.1:7543
+2024-07-24 14:57:58.663 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - [f8f4cc33] CLOSE
+2024-07-24 14:57:58.666 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 14:57:58.668 INFO  [0e944374-3046-4c87-a2d2-ea4437910a55] - [f8f4cc33] UNREGISTERED
+2024-07-24 15:01:51.891 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - Start executing OLIBS Jobs
+2024-07-24 15:01:53.756 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - Fetching auth token
+2024-07-24 15:01:54.588 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - [167895a1] REGISTERED
+2024-07-24 15:01:54.647 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - [167895a1] CONNECT: /127.0.0.1:7543
+2024-07-24 15:01:54.666 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - [167895a1] CLOSE
+2024-07-24 15:01:54.738 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:01:54.740 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 15:01:54.742 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - [167895a1] UNREGISTERED
+2024-07-24 15:01:54.922 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - [c4be56de] REGISTERED
+2024-07-24 15:01:54.925 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - [c4be56de] CONNECT: /127.0.0.1:7543
+2024-07-24 15:01:54.929 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - [c4be56de] CLOSE
+2024-07-24 15:01:54.932 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:01:54.935 INFO  [9d6feaef-2cb2-4a9d-9b61-4936dfcf6f2c] - [c4be56de] UNREGISTERED
+2024-07-24 15:05:34.012 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - Start executing OLIBS Jobs
+2024-07-24 15:05:34.369 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - Fetching auth token
+2024-07-24 15:05:41.252 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - [1384e4bf] REGISTERED
+2024-07-24 15:05:41.538 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - [1384e4bf] CONNECT: /127.0.0.1:7543
+2024-07-24 15:05:41.560 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - [1384e4bf] CLOSE
+2024-07-24 15:05:41.645 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:05:41.648 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 15:05:41.648 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - [1384e4bf] UNREGISTERED
+2024-07-24 15:05:41.665 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - [f300cb54] REGISTERED
+2024-07-24 15:05:41.668 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - [f300cb54] CONNECT: /127.0.0.1:7543
+2024-07-24 15:05:41.672 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - [f300cb54] CLOSE
+2024-07-24 15:05:41.674 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:05:41.676 INFO  [3a49b78b-b2e8-46fa-bc85-a3eedd7e41e5] - [f300cb54] UNREGISTERED
+2024-07-24 15:10:00.048 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - Start executing OLIBS Jobs
+2024-07-24 15:10:00.896 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - Fetching auth token
+2024-07-24 15:10:02.443 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - [a16b7fce] REGISTERED
+2024-07-24 15:10:02.469 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - [a16b7fce] CONNECT: /127.0.0.1:7543
+2024-07-24 15:10:02.481 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - [a16b7fce] CLOSE
+2024-07-24 15:10:02.549 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:10:02.550 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 15:10:02.551 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - [a16b7fce] UNREGISTERED
+2024-07-24 15:10:02.577 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - [65fc1e65] REGISTERED
+2024-07-24 15:10:02.584 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - [65fc1e65] CONNECT: /127.0.0.1:7543
+2024-07-24 15:10:02.589 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - [65fc1e65] CLOSE
+2024-07-24 15:10:02.592 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:10:02.593 INFO  [b0da3515-ed05-470c-9bd9-a85c03f6a497] - [65fc1e65] UNREGISTERED
+2024-07-24 15:17:29.943 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - Start executing OLIBS Jobs
+2024-07-24 15:17:30.480 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - Fetching auth token
+2024-07-24 15:17:30.914 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - [2f9a6af4] REGISTERED
+2024-07-24 15:17:30.934 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - [2f9a6af4] CONNECT: /127.0.0.1:7543
+2024-07-24 15:17:30.947 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - [2f9a6af4] CLOSE
+2024-07-24 15:17:30.963 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:17:30.969 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 15:17:30.978 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - [2f9a6af4] UNREGISTERED
+2024-07-24 15:17:30.993 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - [c2cc0af3] REGISTERED
+2024-07-24 15:17:30.996 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - [c2cc0af3] CONNECT: /127.0.0.1:7543
+2024-07-24 15:17:31.000 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - [c2cc0af3] CLOSE
+2024-07-24 15:17:31.002 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:17:31.004 INFO  [bb844cac-4079-4796-ab61-6f051d7cc18e] - [c2cc0af3] UNREGISTERED
+2024-07-24 15:18:30.355 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - Start executing OLIBS Jobs
+2024-07-24 15:18:30.481 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - Fetching auth token
+2024-07-24 15:18:38.591 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - [d51e25e7] REGISTERED
+2024-07-24 15:18:38.838 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - [d51e25e7] CONNECT: /127.0.0.1:7543
+2024-07-24 15:18:38.928 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - [d51e25e7] CLOSE
+2024-07-24 15:18:39.000 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:18:39.004 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 15:18:39.026 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - [2c1b9b06] REGISTERED
+2024-07-24 15:18:39.006 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - [d51e25e7] UNREGISTERED
+2024-07-24 15:18:39.032 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - [2c1b9b06] CONNECT: /127.0.0.1:7543
+2024-07-24 15:18:39.036 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - [2c1b9b06] CLOSE
+2024-07-24 15:18:39.038 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:18:39.040 INFO  [eb2ba3c1-0e7a-4c3f-8f9a-1550296a2fa2] - [2c1b9b06] UNREGISTERED
+2024-07-24 15:21:08.519 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - Start executing OLIBS Jobs
+2024-07-24 15:21:08.651 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - Fetching auth token
+2024-07-24 15:21:10.368 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - [351e7c65] REGISTERED
+2024-07-24 15:21:10.388 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - [351e7c65] CONNECT: /127.0.0.1:7543
+2024-07-24 15:21:10.432 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - [351e7c65] CLOSE
+2024-07-24 15:21:10.458 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:21:10.511 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 15:21:10.531 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - [4e8ed216] REGISTERED
+2024-07-24 15:21:10.563 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - [4e8ed216] CONNECT: /127.0.0.1:7543
+2024-07-24 15:21:10.512 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - [351e7c65] UNREGISTERED
+2024-07-24 15:21:10.566 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - [4e8ed216] CLOSE
+2024-07-24 15:21:10.569 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:21:10.571 INFO  [39956db5-d7cc-4619-925b-2ee2e9048a1e] - [4e8ed216] UNREGISTERED
+2024-07-24 15:30:10.973 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - Start executing OLIBS Jobs
+2024-07-24 15:30:11.248 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - Fetching auth token
+2024-07-24 15:30:11.877 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - [ca376aac] REGISTERED
+2024-07-24 15:30:11.908 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - [ca376aac] CONNECT: /127.0.0.1:7543
+2024-07-24 15:30:11.939 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - [ca376aac] CLOSE
+2024-07-24 15:30:11.965 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:30:11.973 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-24 15:30:11.982 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - [ca376aac] UNREGISTERED
+2024-07-24 15:30:12.004 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - [3bd5cf99] REGISTERED
+2024-07-24 15:30:12.007 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - [3bd5cf99] CONNECT: /127.0.0.1:7543
+2024-07-24 15:30:12.011 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - [3bd5cf99] CLOSE
+2024-07-24 15:30:12.014 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-24 15:30:12.015 INFO  [5fa0f1a6-d847-4bed-888f-ad0f242b7918] - [3bd5cf99] UNREGISTERED
