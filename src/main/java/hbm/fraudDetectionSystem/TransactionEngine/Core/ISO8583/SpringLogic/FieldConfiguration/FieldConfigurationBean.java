@@ -45,7 +45,7 @@ public class FieldConfigurationBean {
                                         .filter(data -> data.getConfigId().getConfigId().toString().equals(networkId))
                                         .collect(Collectors.toList())
                         );
-                        LOGGER.info(
+                        LOGGER.debug(
                                 String.format(
                                         "Success fetch field configuration with total:  %d",
                                         fixedData.size()

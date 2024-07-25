@@ -108,7 +108,7 @@ public class JSONFieldConfigurationBean {
             if (fixedData.size() > 0) {
                 LOGGER.info(
                     String.format(
-                            "Success fetch field configuration with base endpoint"
+                            "Success processing fetch field configuration"
                     )
                     );
             } else {

@@ -136,7 +136,7 @@ public class RuleEngine {
                                         rule.getRuleId(), rule.getRuleName().toUpperCase(), rule.getPriority(), e.getMessage()
                                 )
                         );
-                        LOGGER.error("", e);
+//                        LOGGER.error("", e);
                     }
                 }
             }
