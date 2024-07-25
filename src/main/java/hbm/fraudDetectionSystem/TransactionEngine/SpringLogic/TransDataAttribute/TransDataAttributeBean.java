@@ -39,7 +39,7 @@ public class TransDataAttributeBean {
                                     fetchedData
                             );
 
-                            LOGGER.info(
+                            LOGGER.debug(
                                     String.format(
                                             "Success fetch trans attr with config id: %s and total configuration: %d",
                                             configId,
@@ -91,7 +91,7 @@ public class TransDataAttributeBean {
                                         fetchedData
                                 );
 
-                                LOGGER.info(
+                                LOGGER.debug(
                                         String.format(
                                                 "Success fetch trans attr with config id: %s, endpoint id: %s and total configuration: %d",
                                                 configId,
@@ -109,16 +109,14 @@ public class TransDataAttributeBean {
                             }
                         }
 
+                        LOGGER.info("Success fetch JSON trans attr");
+
                         fixedData.put(
                                 configId,
                                 attrByEndpoint
                         );
                     });
-            LOGGER.info(
-                    String.format(
-                            "Success fetch trans attr"
-                    )
-            );
+
             return fixedData;
         } catch (Exception e) {
             LOGGER.error(e.getMessage());

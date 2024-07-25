@@ -47,7 +47,7 @@ public class ExtRespCodeBean {
                                     dataFilterByConfigId
                             );
 
-                            LOGGER.info(
+                            LOGGER.debug(
                                     String.format(
                                             "Success fetch internal response with config id: %s and total configuration: %d",
                                             v1.getConfigId(),

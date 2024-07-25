@@ -47,8 +47,9 @@ public class FieldConfigurationBean {
                         );
                         LOGGER.debug(
                                 String.format(
-                                        "Success fetch field configuration with total:  %d",
-                                        fixedData.size()
+                                        "Success fetch field configuration with network id: %s with total configuration: %d",
+                                        networkId,
+                                        fixedData.get(networkId).size()
                                 )
                         );
                     }
@@ -129,7 +130,7 @@ public class FieldConfigurationBean {
                         }
                     }
 
-                    LOGGER.info(
+                    LOGGER.debug(
                             String.format(
                                     "Success setting iso container with network id: %s with total configuration: %d",
                                     key, container.length
@@ -147,8 +148,11 @@ public class FieldConfigurationBean {
                 fixedData.put(key, container);
             });
 
-            if (fixedData.size() == 0) {
+            if (fixedData.size() > 0) {
+                LOGGER.info("Success setting iso container");
+            } else {
                 LOGGER.warn("[THERE IS NO DATA FOR ISO CONFIGURATION CONTAINER]");
+
             }
 
             return fixedData;

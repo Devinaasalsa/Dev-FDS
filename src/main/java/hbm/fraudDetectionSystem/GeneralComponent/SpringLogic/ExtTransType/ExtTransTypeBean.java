@@ -49,7 +49,7 @@ public class ExtTransTypeBean {
                                     dataFilterByConfigId
                             );
 
-                            LOGGER.info(
+                            LOGGER.debug(
                                     String.format(
                                             "Success fetch internal trans type with config id: %s and total configuration: %d",
                                             v1.getConfigId(),
@@ -66,13 +66,11 @@ public class ExtTransTypeBean {
                         }
                     });
 
-                    // Log info for successful fetch of internal trans types
-                    LOGGER.info(
-                            String.format(
-                            "Success fetch internal trans type with total configurations: %d",
-                            fixedData.size()
-                    )
-                    );
+            if (fixedData.size() > 0) {
+                LOGGER.info("Success fetch internal trans type");
+            } else {
+                LOGGER.warn("[THERE IS NO DATA FOR TRANS MSG CONFIGURATION]");
+            }
             return fixedData;
         } catch (Exception e) {
             LOGGER.error(e.getMessage());

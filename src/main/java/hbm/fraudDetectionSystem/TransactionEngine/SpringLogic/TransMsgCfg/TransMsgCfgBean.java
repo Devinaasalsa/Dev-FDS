@@ -131,7 +131,7 @@ public class TransMsgCfgBean {
                         fixedData.put(configId, filteredByTransType);
 
                         if (fixedData.get(configId) != null) {
-                            LOGGER.info(
+                            LOGGER.debug(
                                     String.format(
                                             "Success fetch field configuration with network id: %s with total configuration: %d",
                                             configId,
@@ -141,7 +141,7 @@ public class TransMsgCfgBean {
                         }
                     });
 
-            if (fixedData.size() == 0) {
+            if (fixedData.size() > 0) {
                 LOGGER.info("Success fetch field configuration [Trans Msg Configuration]");
             } else {
                 LOGGER.warn("[THERE IS NO DATA FOR TRANS MSG CONFIGURATION]");
