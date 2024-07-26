@@ -1,0 +1,128 @@
+2024-07-26 10:49:18.355 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - Start executing OLIBS Jobs
+2024-07-26 10:49:18.458 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - Fetching auth token
+2024-07-26 10:49:21.196 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - [0259327d] REGISTERED
+2024-07-26 10:49:21.321 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - [0259327d] CONNECT: /127.0.0.1:7543
+2024-07-26 10:49:21.342 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - [0259327d] CLOSE
+2024-07-26 10:49:21.406 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 10:49:21.414 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 10:49:21.433 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - [cf302fef] REGISTERED
+2024-07-26 10:49:21.439 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - [cf302fef] CONNECT: /127.0.0.1:7543
+2024-07-26 10:49:21.443 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - [cf302fef] CLOSE
+2024-07-26 10:49:21.446 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 10:49:21.448 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - [cf302fef] UNREGISTERED
+2024-07-26 10:49:21.451 INFO  [6ada5786-98bd-480c-a64c-311c48eeb1b9] - [0259327d] UNREGISTERED
+2024-07-26 10:50:00.000 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - Start executing OLIBS Jobs
+2024-07-26 10:50:00.109 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - Fetching auth token
+2024-07-26 10:50:00.122 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - [f45851b3] REGISTERED
+2024-07-26 10:50:00.127 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - [f45851b3] CONNECT: /127.0.0.1:7543
+2024-07-26 10:50:00.130 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - [f45851b3] CLOSE
+2024-07-26 10:50:00.133 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 10:50:00.134 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 10:50:00.135 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - [f45851b3] UNREGISTERED
+2024-07-26 10:50:00.141 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - [fa32b6fa] REGISTERED
+2024-07-26 10:50:00.143 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - [fa32b6fa] CONNECT: /127.0.0.1:7543
+2024-07-26 10:50:00.147 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - [fa32b6fa] CLOSE
+2024-07-26 10:50:00.150 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 10:50:00.151 INFO  [d8b9360e-5d5a-4654-b811-a78502c60e61] - [fa32b6fa] UNREGISTERED
+2024-07-26 10:55:00.007 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - Start executing OLIBS Jobs
+2024-07-26 10:55:00.092 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - Fetching auth token
+2024-07-26 10:55:00.142 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - [578b7227] REGISTERED
+2024-07-26 10:55:00.143 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - [578b7227] CONNECT: /127.0.0.1:7543
+2024-07-26 10:55:00.149 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - [578b7227] CLOSE
+2024-07-26 10:55:00.159 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 10:55:00.160 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - [578b7227] UNREGISTERED
+2024-07-26 10:55:00.160 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 10:55:00.165 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - [034c172b] REGISTERED
+2024-07-26 10:55:00.167 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - [034c172b] CONNECT: /127.0.0.1:7543
+2024-07-26 10:55:00.169 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - [034c172b] CLOSE
+2024-07-26 10:55:00.170 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 10:55:00.171 INFO  [61aff589-c82d-4a71-ab8a-ce7a50883807] - [034c172b] UNREGISTERED
+2024-07-26 11:00:44.555 INFO  [ee0d0de7-0b1e-40bf-9f5f-88ad6a7a49bd] - Start executing OLIBS Jobs
+2024-07-26 11:26:19.092 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - Start executing OLIBS Jobs
+2024-07-26 11:26:19.181 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - Fetching auth token
+2024-07-26 11:26:21.352 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - [6026b04f] REGISTERED
+2024-07-26 11:26:21.422 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - [6026b04f] CONNECT: /127.0.0.1:7543
+2024-07-26 11:26:21.433 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - [6026b04f] CLOSE
+2024-07-26 11:26:21.468 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 11:26:21.481 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 11:26:21.491 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - [56e0657f] REGISTERED
+2024-07-26 11:26:21.493 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - [56e0657f] CONNECT: /127.0.0.1:7543
+2024-07-26 11:26:21.496 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - [56e0657f] CLOSE
+2024-07-26 11:26:21.498 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 11:26:21.499 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - [56e0657f] UNREGISTERED
+2024-07-26 11:26:21.484 INFO  [cdfe6417-56d0-4e51-9ced-5b78d9295c26] - [6026b04f] UNREGISTERED
+2024-07-26 11:26:42.188 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Incoming request, detail client: 
+Ip: localhost:8383 
+User Agent: PostmanRuntime/7.40.0 
+Base Endpoint: Api/v1/Product 
+Url: BIFAST/inquiry 
+Header: {
+  "username" : "{{username}}",
+  "content-type" : "application/json",
+  "authorization" : "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJhdWQiOiJUYXBwaW5nIE1hbmFnZW1lbnQgU3lzdGVtIiwic3ViIjoiYWRtaW4iLCJpc3MiOiJIZXhhb24sIFBUIiwiZXhwIjoxNzIyMzAzNzU1LCJpYXQiOjE3MjE4NzE3NTUsImF1dGhvcml0aWVzIjpbIlJPTEVfQURNSU4iLCI5X09QX0FDVElPTl9BTEVSVFtudWxsXSIsIjQyX09QX0FERF9BVFRSX0lTTzg1ODNbbnVsbF0iLCIyMl9PUF9BRERfQkxBQ0tfTElTVFtudWxsXSIsIjMzX09QX0FERF9FWFRfSVNPODU4M1tudWxsXSIsIjM5X09QX0FERF9GSUVMRF9JU084NTgzW251bGxdIiwiMTRfT1BfQUREX0ZSQVVEX0xJU1RbbnVsbF0iLCIxNl9PUF9BRERfRlJBVURfVkFMVUVbbnVsbF0iLCIyN19PUF9BRERfR1JPVVBfUkVBQ1RJT05TW251bGxdIiwiMzZfT1BfQUREX0hFQURFUl9JU084NTgzW251bGxdIiwiNjlfT1BfQUREX0lOU1RJVFVUSU9OW251bGxdIiwiNTRfT1BfQUREX05PVElGX1RFTVBbbnVsbF0iLCIxMV9PUF9BRERfUkVBQ1RJT05TW251bGxdIiwiNjBfT1BfQUREX1JFQ0lQSUVOVF9HUk9VUFtudWxsXSIsIjU3X09QX0FERF9SRUNJUElFTlRfU0VUVVBbbnVsbF0iLCI0NV9PUF9BRERfUkVTUF9DT0RFX0lTTzg1ODNbbnVsbF0iLCI2Nl9PUF9BRERfUk9MRVtudWxsXSIsIjMwX09QX0FERF9SVUxFW251bGxdIiwiMjVfT1BfQUREX1JVTEVfR1JPVVBbbnVsbF0iLCI0OF9PUF9BRERfVFJBTlNfVFlQRV9JU084NTgzW251bGxdIiwiNjNfT1BfQUREX1VTRVJbbnVsbF0iLCI3NV9PUF9BRERfVVNFUl9BVURJVFtudWxsXSIsIjcyX09QX0FERF9VU0VSX0dST1VQW251bGxdIiwiMTlfT1BfQUREX1dISVRFX0xJU1RbbnVsbF0iLCI1X09QX0FTU0lHTl9CTEFDS19UUkFOU0FDVElPTltudWxsXSIsIjZfT1BfQVNTSUdOX0ZSQVVEX1RSQU5TQUNUSU9OW251bGxdIiwiM19PUF9BU1NJR05fV0hJVEVfVFJBTlNBQ1RJT05bbnVsbF0iLCI4X09QX0NMQVNJRllfQUxFUlRbbnVsbF0iLCI0M19PUF9ERUxFVEVfQVRUUl9JU084NTgzW251bGxdIiwiMjNfT1BfREVMRVRFX0JMQUNLX0xJU1RbbnVsbF0iLCIzNF9PUF9ERUxFVEVfRVhUX0lTTzg1ODNbbnVsbF0iLCI0MF9PUF9ERUxFVEVfRklFTERfSVNPODU4M1tudWxsXSIsIjE1X09QX0RFTEVURV9GUkFVRF9MSVNUW251bGxdIiwiMTdfT1BfREVMRVRFX0ZSQVVEX1ZBTFVFW251bGxdIiwiMjhfT1BfREVMRVRFX0dST1VQX1JFQUNUSU9OU1tudWxsXSIsIjM3X09QX0RFTEVURV9IRUFERVJfSVNPODU4M1tudWxsXSIsIjcwX09QX0RFTEVURV9JTlNUSVRVVElPTltudWxsXSIsIjU1X09QX0RFTEVURV9OT1RJRl9URU1QW251bGxdIiwiMTJfT1BfREVMRVRFX1JFQUNUSU9OU1tudWxsXSIsIjYxX09QX0RFTEVURV9SRUNJUElFTlRfR1JPVVBbbnVsbF0iLCI1OF9PUF9ERUxFVEVfUkVDSVBJRU5UX1NFVFVQW251bGxdIiwiODRfT1BfREVMRVRFX1JFUE9SVFtudWxsXSIsIjQ2X09QX0RFTEVURV9SRVNQX0NPREVfSVNPODU4M1tudWxsXSIsIjY3X09QX0RFTEVURV9ST0xFW251bGxdIiwiMzFfT1BfREVMRVRFX1JVTEVbbnVsbF0iLCIyNl9PUF9ERUxFVEVfUlVMRV9HUk9VUFtudWxsXSIsIjQ5X09QX0RFTEVURV9UUkFOU19UWVBFX0lTTzg1ODNbbnVsbF0iLCI2NF9PUF9ERUxFVEVfVVNFUltudWxsXSIsIjc2X09QX0RFTEVURV9VU0VSX0FVRElUW251bGxdIiwiNzNfT1BfREVMRVRFX1VTRVJfR1JPVVBbbnVsbF0iLCIyMF9PUF9ERUxFVEVfV0hJVEVfTElTVFtudWxsXSIsIjUyX09QX0VYUE9SVF9SRVBPUlRbbnVsbF0iLCI3N19PUF9FWFRfSU5UX01FTlVbbnVsbF0iLCI4MF9PUF9GUkFVRF9NQU5BR0VNRU5UX01FTlVbbnVsbF0iLCI1MV9PUF9JTVBPUlRfUkVQT1JUW251bGxdIiwiNzhfT1BfTk9USUZJQ0FUSU9OX01FTlVbbnVsbF0iLCI0X09QX1BVVF9GUkFVRF9UUkFOU0FDVElPTltudWxsXSIsIjgzX09QX1JVTEVfQ0hFQ0tFUltudWxsXSIsIjgyX09QX1JVTEVfTUFLRVJbbnVsbF0iLCI3OV9PUF9VU0VSX01FTlVbbnVsbF0iLCI3X09QX1ZJRVdfQUxFUlRbbnVsbF0iLCI0MV9PUF9WSUVXX0FUVFJfSVNPODU4M1tudWxsXSIsIjIxX09QX1ZJRVdfQkxBQ0tfTElTVFtudWxsXSIsIjFfT1BfVklFV19EQVNIQk9BUkRbbnVsbF0iLCIzMl9PUF9WSUVXX0VYVF9JU084NTgzW251bGxdIiwiODFfT1BfVklFV19FWFRfSlNPTltudWxsXSIsIjM4X09QX1ZJRVdfRklFTERfSVNPODU4M1tudWxsXSIsIjEzX09QX1ZJRVdfRlJBVURfTElTVFtudWxsXSIsIjM1X09QX1ZJRVdfSEVBREVSX0lTTzg1ODNbbnVsbF0iLCI2OF9PUF9WSUVXX0lOU1RJVFVUSU9OW251bGxdIiwiNTNfT1BfVklFV19OT1RJRl9URU1QW251bGxdIiwiMTBfT1BfVklFV19SRUFDVElPTlNbbnVsbF0iLCI1OV9PUF9WSUVXX1JFQ0lQSUVOVF9HUk9VUFtudWxsXSIsIjU2X09QX1ZJRVdfUkVDSVBJRU5UX1NFVFVQW251bGxdIiwiNTBfT1BfVklFV19SRVBPUlRbbnVsbF0iLCI0NF9PUF9WSUVXX1JFU1BfQ09ERV9JU084NTgzW251bGxdIiwiNjVfT1BfVklFV19ST0xFW251bGxdIiwiMjlfT1BfVklFV19SVUxFW251bGxdIiwiMjRfT1BfVklFV19SVUxFX0dST1VQW251bGxdIiwiMl9PUF9WSUVXX1RSQU5TQUNUSU9OWy90cmFuc2FjdGlvbl9kYXRhXSIsIjQ3X09QX1ZJRVdfVFJBTlNfVFlQRV9JU084NTgzW251bGxdIiwiNjJfT1BfVklFV19VU0VSWy91c2VyXSIsIjc0X09QX1ZJRVdfVVNFUl9BVURJVFtudWxsXSIsIjcxX09QX1ZJRVdfVVNFUl9HUk9VUFtudWxsXSIsIjE4X09QX1ZJRVdfV0hJVEVfTElTVFtudWxsXSJdfQ.ufOsPRE1_BV_bJ1prcMBSxnqduHi_AIt2pjRfs5gabGPt3iKXXWpoL0Lx3xn1sE_pvAF95EwmkCwE9dWTa108A",
+  "user-agent" : "PostmanRuntime/7.40.0",
+  "accept" : "*/*",
+  "cache-control" : "no-cache",
+  "postman-token" : "57198bb0-1d4e-4689-9f90-687f0795b7fc",
+  "host" : "localhost:8383",
+  "accept-encoding" : "gzip, deflate, br",
+  "connection" : "keep-alive",
+  "content-length" : "548"
+} 
+Payload: {
+  "fromAccount" : 1234,
+  "msgSTAN" : 123123,
+  "trxCode" : "391000",
+  "posConditionMode" : 55,
+  "issuerID" : 8,
+  "toAccount" : 123123123,
+  "toBankCode" : "451",
+  "trxAmount" : 4500000,
+  "retrievalReferenceNumber" : 12312312,
+  "transmissionDateTime" : "0727114252",
+  "trxDate" : "0727",
+  "trxTime" : "1142",
+  "cifID" : 128312,
+  "accountName" : "BSI",
+  "accountNumberID" : "0727114252",
+  "reffNumber" : "123123",
+  "trxPurpose" : 0,
+  "trxMessage" : "transfer inquiry",
+  "merchantType" : 6845
+}
+2024-07-26 11:26:42.439 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Checking Request type
+2024-07-26 11:26:42.439 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Request Type: [TRANSACTION]
+2024-07-26 11:26:42.440 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Send data to [Transaction Engine]
+2024-07-26 11:26:52.900 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Receive data from [Transaction Engine]
+2024-07-26 11:26:52.901 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Response body: 
+{
+  "message" : "Success",
+  "rCode" : "00"
+}
+2024-07-26 11:26:52.902 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Sending response to client
+2024-07-26 11:30:00.009 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - Start executing OLIBS Jobs
+2024-07-26 11:30:00.116 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - Fetching auth token
+2024-07-26 11:30:00.189 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - [5dd054e8] REGISTERED
+2024-07-26 11:30:00.196 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - [5dd054e8] CONNECT: /127.0.0.1:7543
+2024-07-26 11:30:00.202 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - [5dd054e8] CLOSE
+2024-07-26 11:30:00.216 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 11:30:00.217 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 11:30:00.217 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - [5dd054e8] UNREGISTERED
+2024-07-26 11:30:00.222 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - [6726f212] REGISTERED
+2024-07-26 11:30:00.223 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - [6726f212] CONNECT: /127.0.0.1:7543
+2024-07-26 11:30:00.225 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - [6726f212] CLOSE
+2024-07-26 11:30:00.226 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 11:30:00.227 INFO  [b6b9bf39-52ca-483b-afe4-5a605a0f0994] - [6726f212] UNREGISTERED
+2024-07-26 11:35:00.004 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - Start executing OLIBS Jobs
+2024-07-26 11:35:00.159 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - Fetching auth token
+2024-07-26 11:35:00.217 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - [905bea7b] REGISTERED
+2024-07-26 11:35:00.219 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - [905bea7b] CONNECT: /127.0.0.1:7543
+2024-07-26 11:35:00.226 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - [905bea7b] CLOSE
+2024-07-26 11:35:00.239 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 11:35:00.239 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 11:35:00.239 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - [905bea7b] UNREGISTERED
+2024-07-26 11:35:00.244 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - [5baf0f8d] REGISTERED
+2024-07-26 11:35:00.244 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - [5baf0f8d] CONNECT: /127.0.0.1:7543
+2024-07-26 11:35:00.246 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - [5baf0f8d] CLOSE
+2024-07-26 11:35:00.247 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 11:35:00.247 INFO  [4fc3b5f8-852e-48f8-9a6c-da679c885908] - [5baf0f8d] UNREGISTERED

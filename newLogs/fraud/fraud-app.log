@@ -1,0 +1,740 @@
+2024-07-26 11:26:46.748 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Receive data from [Transaction Engine]
+2024-07-26 11:26:46.751 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [Check Transaction in White List]
+2024-07-26 11:26:46.874 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Got response null, from White List
+2024-07-26 11:26:46.874 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [Finish Checking Data in White List]
+2024-07-26 11:26:46.875 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [Check Transaction in Black List]
+2024-07-26 11:26:47.167 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Got response null, from Black List
+2024-07-26 11:26:47.169 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [Finish Checking Data in Black List]
+2024-07-26 11:26:47.169 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [Check Transaction in Rule]
+2024-07-26 11:26:47.170 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Receive data from transaction engine, detail: [UTRNNO: 7057], [PID: 2]
+2024-07-26 11:26:49.080 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [15] NAME: [TRANSAKSI ATM/EDC YANG DILAKUKAN DI NEGARA YANG MASUK DALAM DAFTAR BLACKLIST] PRIORITY: [1]
+2024-07-26 11:26:49.081 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [(S01||S02)&&(S03||S04)&&S05]
+2024-07-26 11:26:49.081 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S03]
+2024-07-26 11:26:49.081 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S03] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;merchantType) == '6012']
+2024-07-26 11:26:49.088 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;merchantType) == '6012'
+2024-07-26 11:26:49.091 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;merchantType) == '6012'
+2024-07-26 11:26:49.099 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;merchantType]
+2024-07-26 11:26:49.104 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [merchantType]
+2024-07-26 11:26:49.105 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.merchantType)]
+2024-07-26 11:26:49.106 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.merchantType) == '6012']
+2024-07-26 11:26:49.108 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '6012'
+2024-07-26 11:26:49.108 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.merchantType) == 6012]
+2024-07-26 11:26:49.108 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:49.633 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:49.633 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S03], result: [false]
+2024-07-26 11:26:49.634 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S04]
+2024-07-26 11:26:49.634 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S04] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;merchantType) == '6010']
+2024-07-26 11:26:49.634 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;merchantType) == '6010'
+2024-07-26 11:26:49.634 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;merchantType) == '6010'
+2024-07-26 11:26:49.635 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;merchantType]
+2024-07-26 11:26:49.636 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [merchantType]
+2024-07-26 11:26:49.637 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.merchantType)]
+2024-07-26 11:26:49.637 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.merchantType) == '6010']
+2024-07-26 11:26:49.639 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '6010'
+2024-07-26 11:26:49.640 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.merchantType) == 6010]
+2024-07-26 11:26:49.640 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:49.641 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:49.641 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S04], result: [false]
+2024-07-26 11:26:49.641 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S05]
+2024-07-26 11:26:49.641 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S05] 
+	Type: [LIST] 
+	Expression: [fraudList(High Risk Country) contains $(LIST;0;CARD;currency)]
+2024-07-26 11:26:49.643 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: fraudList(High Risk Country) contains $(LIST;0;CARD;currency)
+2024-07-26 11:26:49.644 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: fraudList(High Risk Country) contains $(LIST;0;CARD;currency)
+2024-07-26 11:26:49.644 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [LIST;0;CARD;currency]
+2024-07-26 11:26:49.644 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [LIST] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [currency]
+2024-07-26 11:26:49.644 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.str(input.currency)]
+2024-07-26 11:26:49.644 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [fraudList(High Risk Country) contains tyChe.str(input.currency)]
+2024-07-26 11:26:49.645 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Find all fraud value from fraud list: [High Risk Country]
+2024-07-26 11:26:49.665 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Found fraud value with total data: [1]
+2024-07-26 11:26:49.666 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:49.667 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:49.668 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S05], result: [false]
+2024-07-26 11:26:49.668 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S02]
+2024-07-26 11:26:49.668 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S02] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;transType) == '112']
+2024-07-26 11:26:49.668 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;transType) == '112'
+2024-07-26 11:26:49.668 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;transType) == '112'
+2024-07-26 11:26:49.668 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;transType]
+2024-07-26 11:26:49.668 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [transType]
+2024-07-26 11:26:49.668 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.transType)]
+2024-07-26 11:26:49.669 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.transType) == '112']
+2024-07-26 11:26:49.669 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '112'
+2024-07-26 11:26:49.669 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.transType) == 112]
+2024-07-26 11:26:49.670 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:49.673 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:49.673 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S02], result: [false]
+2024-07-26 11:26:49.673 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:49.674 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S01] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;transType) == '109']
+2024-07-26 11:26:49.719 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;transType) == '109'
+2024-07-26 11:26:49.719 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;transType) == '109'
+2024-07-26 11:26:49.719 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;transType]
+2024-07-26 11:26:49.719 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [transType]
+2024-07-26 11:26:49.719 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.transType)]
+2024-07-26 11:26:49.719 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.transType) == '109']
+2024-07-26 11:26:49.719 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '109'
+2024-07-26 11:26:49.720 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.transType) == 109]
+2024-07-26 11:26:49.720 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:49.720 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:49.720 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:49.721 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [(false||false)&&(false||false)&&false]
+2024-07-26 11:26:49.721 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:49.739 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:49.739 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - FINISH EVALUATE RULE ID: [15] NAME: [TRANSAKSI ATM/EDC YANG DILAKUKAN DI NEGARA YANG MASUK DALAM DAFTAR BLACKLIST] PRIORITY: [1] RESULT: [false]
+2024-07-26 11:26:49.740 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [18] NAME: [8 TRANSAKSI KREDIT PADA REKENING NASABAH YANG MASUK DALAM DAFTAR DTTOT, BLACKLIST, DLL] PRIORITY: [1]
+2024-07-26 11:26:49.740 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [(S01||S06||S07)&&S08]
+2024-07-26 11:26:49.740 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S08]
+2024-07-26 11:26:49.740 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S08] 
+	Type: [LIST] 
+	Expression: [fraudList(Rekening mencurigakan) contains $(LIST;0;CARD;acct1)]
+2024-07-26 11:26:49.740 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: fraudList(Rekening mencurigakan) contains $(LIST;0;CARD;acct1)
+2024-07-26 11:26:49.740 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: fraudList(Rekening mencurigakan) contains $(LIST;0;CARD;acct1)
+2024-07-26 11:26:49.740 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [LIST;0;CARD;acct1]
+2024-07-26 11:26:49.741 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [LIST] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [acct1]
+2024-07-26 11:26:49.741 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.str(input.acct1)]
+2024-07-26 11:26:49.741 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [fraudList(Rekening mencurigakan) contains tyChe.str(input.acct1)]
+2024-07-26 11:26:49.741 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Find all fraud value from fraud list: [Rekening mencurigakan]
+2024-07-26 11:26:49.853 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Found fraud value with total data: [2]
+2024-07-26 11:26:49.853 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:49.853 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:49.853 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S08], result: [false]
+2024-07-26 11:26:49.854 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S06]
+2024-07-26 11:26:49.854 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S06] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;transType) == '108']
+2024-07-26 11:26:49.854 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;transType) == '108'
+2024-07-26 11:26:49.854 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;transType) == '108'
+2024-07-26 11:26:49.854 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;transType]
+2024-07-26 11:26:49.854 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [transType]
+2024-07-26 11:26:49.854 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.transType)]
+2024-07-26 11:26:49.854 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.transType) == '108']
+2024-07-26 11:26:49.854 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '108'
+2024-07-26 11:26:49.855 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.transType) == 108]
+2024-07-26 11:26:49.855 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:49.855 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:49.855 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S06], result: [false]
+2024-07-26 11:26:49.855 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:49.855 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S01] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;transType) == '110']
+2024-07-26 11:26:49.856 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;transType) == '110'
+2024-07-26 11:26:49.856 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;transType) == '110'
+2024-07-26 11:26:49.856 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;transType]
+2024-07-26 11:26:49.856 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [transType]
+2024-07-26 11:26:49.856 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.transType)]
+2024-07-26 11:26:49.856 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.transType) == '110']
+2024-07-26 11:26:49.856 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '110'
+2024-07-26 11:26:49.856 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.transType) == 110]
+2024-07-26 11:26:49.856 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:49.857 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:49.857 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:49.857 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S07]
+2024-07-26 11:26:49.857 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S07] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;transType) == '112']
+2024-07-26 11:26:49.857 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;transType) == '112'
+2024-07-26 11:26:49.857 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;transType) == '112'
+2024-07-26 11:26:49.857 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;transType]
+2024-07-26 11:26:49.858 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [transType]
+2024-07-26 11:26:49.858 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.transType)]
+2024-07-26 11:26:49.858 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.transType) == '112']
+2024-07-26 11:26:49.858 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '112'
+2024-07-26 11:26:49.858 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.transType) == 112]
+2024-07-26 11:26:49.858 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:49.859 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:49.859 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S07], result: [false]
+2024-07-26 11:26:49.859 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [(false||false||false)&&false]
+2024-07-26 11:26:49.859 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:49.859 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:49.860 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - FINISH EVALUATE RULE ID: [18] NAME: [8 TRANSAKSI KREDIT PADA REKENING NASABAH YANG MASUK DALAM DAFTAR DTTOT, BLACKLIST, DLL] PRIORITY: [1] RESULT: [false]
+2024-07-26 11:26:49.860 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [13] NAME: [TRANSAKSI TRANSFER ATM/EDC DARI (X) ACC / (X) NO PAN KARTU ATM KE 1 ACC] PRIORITY: [1]
+2024-07-26 11:26:49.860 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S07]
+2024-07-26 11:26:49.860 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S07]
+2024-07-26 11:26:49.860 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S07] 
+	Type: [LIMIT] 
+	Expression: [$(LIMIT;15;CARD;hpan) > 2]
+2024-07-26 11:26:49.868 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(LIMIT;15;CARD;hpan) > 2
+2024-07-26 11:26:49.869 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(LIMIT;15;CARD;hpan) > 2
+2024-07-26 11:26:49.869 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [LIMIT;15;CARD;hpan]
+2024-07-26 11:26:49.869 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [LIMIT] 
+	Depth History: [15] 
+	History By: [CARD] 
+	Field: [hpan]
+2024-07-26 11:26:49.869 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Find counter with id: [15]
+2024-07-26 11:26:50.114 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Fetched Counter detail: 
+	Counter id: [15] 
+	Aggregating Entity: [acct1] 
+	Attribute: [acct2] 
+	Metric Type: [2] 
+	Incrementation Mode: [1]
+2024-07-26 11:26:50.115 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Aggregate current time: [2024-07-26 11:26:46.676]
+2024-07-26 11:26:50.115 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Checking the counter is having filtration...
+2024-07-26 11:26:50.115 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Counter have filtration will process it
+2024-07-26 11:26:50.116 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Counter have formula, will proceed with formula : [S01&&(S02||S03)]
+2024-07-26 11:26:50.116 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S01&&(S02||S03)]
+2024-07-26 11:26:50.117 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:50.117 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S01] 
+	Attribute: [transType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [109] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:50.117 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:50.123 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.transType == '109']
+2024-07-26 11:26:50.123 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:50.124 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:50.124 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S02]
+2024-07-26 11:26:50.124 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S02] 
+	Attribute: [merchantType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [6012] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:50.125 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:50.125 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.merchantType == '6012']
+2024-07-26 11:26:50.125 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:50.125 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S02], result: [false]
+2024-07-26 11:26:50.125 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S03]
+2024-07-26 11:26:50.126 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S03] 
+	Attribute: [merchantType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [6011] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:50.126 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:50.126 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.merchantType == '6011']
+2024-07-26 11:26:50.126 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:50.126 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S03], result: [false]
+2024-07-26 11:26:50.126 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false&&(false||false)]
+2024-07-26 11:26:50.126 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:50.126 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:50.127 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [-1]
+2024-07-26 11:26:50.127 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [-1 > 2]
+2024-07-26 11:26:50.127 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:50.127 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:50.127 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S07], result: [false]
+2024-07-26 11:26:50.127 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false]
+2024-07-26 11:26:50.127 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:50.127 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:50.127 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - FINISH EVALUATE RULE ID: [13] NAME: [TRANSAKSI TRANSFER ATM/EDC DARI (X) ACC / (X) NO PAN KARTU ATM KE 1 ACC] PRIORITY: [1] RESULT: [false]
+2024-07-26 11:26:50.128 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [12] NAME: [TRANSAKSI DEBET ATM/EDC YANG DILAKUKAN OLEH NASABAH YANG MASUK DALAM DAFTAR DTTOT] PRIORITY: [1]
+2024-07-26 11:26:50.128 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S01&&S02&&S03]
+2024-07-26 11:26:50.128 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S02]
+2024-07-26 11:26:50.128 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S02] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;merchantType) == '6012']
+2024-07-26 11:26:50.128 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;merchantType) == '6012'
+2024-07-26 11:26:50.128 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;merchantType) == '6012'
+2024-07-26 11:26:50.128 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;merchantType]
+2024-07-26 11:26:50.132 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [merchantType]
+2024-07-26 11:26:50.132 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.merchantType)]
+2024-07-26 11:26:50.133 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.merchantType) == '6012']
+2024-07-26 11:26:50.133 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '6012'
+2024-07-26 11:26:50.133 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.merchantType) == 6012]
+2024-07-26 11:26:50.133 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:50.134 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:50.134 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S02], result: [false]
+2024-07-26 11:26:50.134 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S03]
+2024-07-26 11:26:50.134 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S03] 
+	Type: [LIST] 
+	Expression: [fraudList(Rekening mencurigakan) contains $(LIST;0;CARD;acct1)]
+2024-07-26 11:26:50.134 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: fraudList(Rekening mencurigakan) contains $(LIST;0;CARD;acct1)
+2024-07-26 11:26:50.135 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: fraudList(Rekening mencurigakan) contains $(LIST;0;CARD;acct1)
+2024-07-26 11:26:50.135 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [LIST;0;CARD;acct1]
+2024-07-26 11:26:50.135 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [LIST] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [acct1]
+2024-07-26 11:26:50.135 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.str(input.acct1)]
+2024-07-26 11:26:50.135 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [fraudList(Rekening mencurigakan) contains tyChe.str(input.acct1)]
+2024-07-26 11:26:50.135 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Find all fraud value from fraud list: [Rekening mencurigakan]
+2024-07-26 11:26:50.406 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Found fraud value with total data: [2]
+2024-07-26 11:26:50.406 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:50.407 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:50.407 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S03], result: [false]
+2024-07-26 11:26:50.407 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:50.407 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S01] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;transType) == '109']
+2024-07-26 11:26:50.407 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;transType) == '109'
+2024-07-26 11:26:50.407 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;transType) == '109'
+2024-07-26 11:26:50.407 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;transType]
+2024-07-26 11:26:50.408 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [transType]
+2024-07-26 11:26:50.408 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.transType)]
+2024-07-26 11:26:50.408 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.transType) == '109']
+2024-07-26 11:26:50.408 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '109'
+2024-07-26 11:26:50.408 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.transType) == 109]
+2024-07-26 11:26:50.408 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:50.409 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:50.409 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:50.409 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false&&false&&false]
+2024-07-26 11:26:50.409 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - FINISH EVALUATE RULE ID: [12] NAME: [TRANSAKSI DEBET ATM/EDC YANG DILAKUKAN OLEH NASABAH YANG MASUK DALAM DAFTAR DTTOT] PRIORITY: [1] RESULT: [false]
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [11] NAME: [TRANSAKSI DEBET DARI 1 ACC / 1 NO PAN KARTU ATM DI (X) LOKASI/MERCHANT BERBEDA DALAM WAKTU KURANG DARI (X) MENIT] PRIORITY: [1]
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S01&&S02&&S03&&S04&&S05&&S07]
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S04]
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S04] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;merchantType) == '6011']
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;merchantType) == '6011'
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;merchantType) == '6011'
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;merchantType]
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [merchantType]
+2024-07-26 11:26:50.410 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.merchantType)]
+2024-07-26 11:26:50.411 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.merchantType) == '6011']
+2024-07-26 11:26:50.411 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '6011'
+2024-07-26 11:26:50.411 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.merchantType) == 6011]
+2024-07-26 11:26:50.411 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:50.411 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:50.411 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S04], result: [false]
+2024-07-26 11:26:50.412 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S07]
+2024-07-26 11:26:50.412 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S07] 
+	Type: [LOGICAL] 
+	Expression: [$(LOGICAL;0;CARD;terminalAddress) != $(LOGICAL;1;CARD;terminalAddress)]
+2024-07-26 11:26:50.413 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(LOGICAL;0;CARD;terminalAddress) != $(LOGICAL;1;CARD;terminalAddress)
+2024-07-26 11:26:50.414 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(LOGICAL;0;CARD;terminalAddress) != $(LOGICAL;1;CARD;terminalAddress)
+2024-07-26 11:26:50.414 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [LOGICAL;0;CARD;terminalAddress]
+2024-07-26 11:26:50.414 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [LOGICAL] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [terminalAddress]
+2024-07-26 11:26:50.414 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.terminalAddress)]
+2024-07-26 11:26:50.414 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [LOGICAL;1;CARD;terminalAddress]
+2024-07-26 11:26:50.414 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [LOGICAL] 
+	Depth History: [1] 
+	History By: [CARD] 
+	Field: [terminalAddress]
+2024-07-26 11:26:50.421 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Find Trans Field By History, with data: 
+	History by: [hpan] 
+	History value: [null] 
+	Depth: [1] 
+	Transaction field: [terminalAddress]
+2024-07-26 11:26:51.176 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: ['']
+2024-07-26 11:26:51.177 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.terminalAddress) != '']
+2024-07-26 11:26:51.177 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.180 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:51.180 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S07], result: [false]
+2024-07-26 11:26:51.180 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:51.180 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S01] 
+	Type: [ARITHMETIC] 
+	Expression: [(DurationBetween(parse($(ARITHMETIC;0;CARD;sysdate), pattern), parse($(ARITHMETIC;1;CARD;sysdate), pattern))).getSeconds() < 3600]
+2024-07-26 11:26:51.184 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: (DurationBetween(parse($(ARITHMETIC;0;CARD;sysdate), pattern), parse($(ARITHMETIC;1;CARD;sysdate), pattern))).getSeconds() < 3600
+2024-07-26 11:26:51.185 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: (DurationBetween(parse($(ARITHMETIC;0;CARD;sysdate), pattern), parse($(ARITHMETIC;1;CARD;sysdate), pattern))).getSeconds() < 3600
+2024-07-26 11:26:51.186 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [ARITHMETIC;0;CARD;sysdate]
+2024-07-26 11:26:51.188 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [ARITHMETIC] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [sysdate]
+2024-07-26 11:26:51.188 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.sysdate)]
+2024-07-26 11:26:51.189 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [ARITHMETIC;1;CARD;sysdate]
+2024-07-26 11:26:51.189 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [ARITHMETIC] 
+	Depth History: [1] 
+	History By: [CARD] 
+	Field: [sysdate]
+2024-07-26 11:26:51.189 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Find Trans Field By History, with data: 
+	History by: [hpan] 
+	History value: [null] 
+	Depth: [1] 
+	Transaction field: [sysdate]
+2024-07-26 11:26:51.243 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: ['']
+2024-07-26 11:26:51.244 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [(DurationBetween(parse(tyChe.cvt(input.sysdate), pattern), parse('', pattern))).getSeconds() < 3600]
+2024-07-26 11:26:51.247 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.272 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [16] NAME: [TRANSAKSI ATM/EDC PADA RENTANG WAKTU JAM (X) SAMPAI DENGAN JAM (Y) DENGAN TOTAL NILAI TRANSAKSI RP. (Z)] PRIORITY: [1]
+2024-07-26 11:26:51.273 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S01]
+2024-07-26 11:26:51.273 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:51.273 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S01] 
+	Type: [LIMIT] 
+	Expression: [$(LIMIT;9;CARD;hpan) > 100000000]
+2024-07-26 11:26:51.274 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(LIMIT;9;CARD;hpan) > 100000000
+2024-07-26 11:26:51.274 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(LIMIT;9;CARD;hpan) > 100000000
+2024-07-26 11:26:51.274 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [LIMIT;9;CARD;hpan]
+2024-07-26 11:26:51.274 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [LIMIT] 
+	Depth History: [9] 
+	History By: [CARD] 
+	Field: [hpan]
+2024-07-26 11:26:51.275 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Find counter with id: [9]
+2024-07-26 11:26:51.293 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Fetched Counter detail: 
+	Counter id: [9] 
+	Aggregating Entity: [amount] 
+	Attribute: [hpan] 
+	Metric Type: [3] 
+	Incrementation Mode: [1]
+2024-07-26 11:26:51.294 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Aggregate current time: [2024-07-26 11:26:46.676]
+2024-07-26 11:26:51.295 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Checking the counter is having filtration...
+2024-07-26 11:26:51.295 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Counter have filtration will process it
+2024-07-26 11:26:51.295 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Counter have formula, will proceed with formula : [S01&&(S05||S06)]
+2024-07-26 11:26:51.295 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S01&&(S05||S06)]
+2024-07-26 11:26:51.297 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:51.297 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S01] 
+	Attribute: [transType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [109] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:51.298 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:51.299 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.transType == '109']
+2024-07-26 11:26:51.299 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.305 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:51.306 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S05]
+2024-07-26 11:26:51.306 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S05] 
+	Attribute: [merchantType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [6011] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:51.307 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:51.307 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.merchantType == '6011']
+2024-07-26 11:26:51.307 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.309 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S05], result: [false]
+2024-07-26 11:26:51.309 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S06]
+2024-07-26 11:26:51.309 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S06] 
+	Attribute: [merchantType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [6012] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:51.309 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:51.310 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.merchantType == '6012']
+2024-07-26 11:26:51.310 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.311 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S06], result: [false]
+2024-07-26 11:26:51.312 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false&&(false||false)]
+2024-07-26 11:26:51.312 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:51.312 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:51.313 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [-1]
+2024-07-26 11:26:51.313 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [-1 > 100000000]
+2024-07-26 11:26:51.313 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.314 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:51.314 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:51.315 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false]
+2024-07-26 11:26:51.315 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:51.315 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:51.315 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - FINISH EVALUATE RULE ID: [16] NAME: [TRANSAKSI ATM/EDC PADA RENTANG WAKTU JAM (X) SAMPAI DENGAN JAM (Y) DENGAN TOTAL NILAI TRANSAKSI RP. (Z)] PRIORITY: [1] RESULT: [false]
+2024-07-26 11:26:51.315 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [14] NAME: [TRANSAKSI TRANSFER ATM/EDC DARI 1 ACC/ 1 NO PAN KARTU ATM KE (X) ACC] PRIORITY: [1]
+2024-07-26 11:26:51.316 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S05]
+2024-07-26 11:26:51.316 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S05]
+2024-07-26 11:26:51.317 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S05] 
+	Type: [LIMIT] 
+	Expression: [$(LIMIT;13;CARD;hpan) > 2]
+2024-07-26 11:26:51.332 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(LIMIT;13;CARD;hpan) > 2
+2024-07-26 11:26:51.341 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(LIMIT;13;CARD;hpan) > 2
+2024-07-26 11:26:51.341 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [LIMIT;13;CARD;hpan]
+2024-07-26 11:26:51.342 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [LIMIT] 
+	Depth History: [13] 
+	History By: [CARD] 
+	Field: [hpan]
+2024-07-26 11:26:51.343 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Find counter with id: [13]
+2024-07-26 11:26:51.372 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Fetched Counter detail: 
+	Counter id: [13] 
+	Aggregating Entity: [acct2] 
+	Attribute: [acct1] 
+	Metric Type: [2] 
+	Incrementation Mode: [1]
+2024-07-26 11:26:51.374 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Aggregate current time: [2024-07-26 11:26:46.676]
+2024-07-26 11:26:51.374 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Checking the counter is having filtration...
+2024-07-26 11:26:51.374 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Counter have filtration will process it
+2024-07-26 11:26:51.375 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Counter have formula, will proceed with formula : [S01&&(S02||S03)]
+2024-07-26 11:26:51.375 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S01&&(S02||S03)]
+2024-07-26 11:26:51.375 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:51.375 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S01] 
+	Attribute: [transType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [109] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:51.375 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:51.376 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.transType == '109']
+2024-07-26 11:26:51.376 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.376 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:51.377 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S02]
+2024-07-26 11:26:51.377 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S02] 
+	Attribute: [merchantType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [6011] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:51.377 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:51.377 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.merchantType == '6011']
+2024-07-26 11:26:51.378 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.378 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S02], result: [false]
+2024-07-26 11:26:51.379 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S03]
+2024-07-26 11:26:51.379 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S03] 
+	Attribute: [merchantType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [6012] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:51.379 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:51.380 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.merchantType == '6012']
+2024-07-26 11:26:51.380 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.380 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S03], result: [false]
+2024-07-26 11:26:51.381 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false&&(false||false)]
+2024-07-26 11:26:51.381 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:51.383 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:51.398 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [-1]
+2024-07-26 11:26:51.400 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [-1 > 2]
+2024-07-26 11:26:51.408 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.412 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:51.428 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S05], result: [false]
+2024-07-26 11:26:51.431 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false]
+2024-07-26 11:26:51.443 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:51.448 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:51.449 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - FINISH EVALUATE RULE ID: [14] NAME: [TRANSAKSI TRANSFER ATM/EDC DARI 1 ACC/ 1 NO PAN KARTU ATM KE (X) ACC] PRIORITY: [1] RESULT: [false]
+2024-07-26 11:26:51.477 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [17] NAME: [TRANSAKSI ATM/EDC DI NEGARA YANG BERBEDA DALAM RENTANG WAKTU KURANG DARI (X) MENIT] PRIORITY: [1]
+2024-07-26 11:26:51.479 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S01]
+2024-07-26 11:26:51.479 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:51.494 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S01] 
+	Type: [LIMIT] 
+	Expression: [$(LIMIT;10;CARD;hpan) > 1]
+2024-07-26 11:26:51.498 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(LIMIT;10;CARD;hpan) > 1
+2024-07-26 11:26:51.509 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(LIMIT;10;CARD;hpan) > 1
+2024-07-26 11:26:51.510 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [LIMIT;10;CARD;hpan]
+2024-07-26 11:26:51.510 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [LIMIT] 
+	Depth History: [10] 
+	History By: [CARD] 
+	Field: [hpan]
+2024-07-26 11:26:51.510 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Find counter with id: [10]
+2024-07-26 11:26:51.526 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Fetched Counter detail: 
+	Counter id: [10] 
+	Aggregating Entity: [currency] 
+	Attribute: [hpan] 
+	Metric Type: [2] 
+	Incrementation Mode: [1]
+2024-07-26 11:26:51.527 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Aggregate current time: [2024-07-26 11:26:46.676]
+2024-07-26 11:26:51.528 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Checking the counter is having filtration...
+2024-07-26 11:26:51.528 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Counter have filtration will process it
+2024-07-26 11:26:51.528 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Counter have formula, will proceed with formula : [S02||S03||S04]
+2024-07-26 11:26:51.528 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S02||S03||S04]
+2024-07-26 11:26:51.528 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S02]
+2024-07-26 11:26:51.529 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S02] 
+	Attribute: [transType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [110] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:51.529 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:51.529 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.transType == '110']
+2024-07-26 11:26:51.529 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.530 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S02], result: [false]
+2024-07-26 11:26:51.530 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S03]
+2024-07-26 11:26:51.530 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S03] 
+	Attribute: [transType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [109] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:51.530 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:51.531 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.transType == '109']
+2024-07-26 11:26:51.531 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.531 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S03], result: [false]
+2024-07-26 11:26:51.532 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S04]
+2024-07-26 11:26:51.532 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail filtration: 
+	Condition Id: [S04] 
+	Attribute: [transType] 
+	Operator: [null] 
+	Operator Detail: [EQUALS] 
+	Value: [111] 
+	Min Range: [] 
+	Max Range: []
+2024-07-26 11:26:51.532 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start generate filtration expression
+2024-07-26 11:26:51.532 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Generated expression: [input.transType == '111']
+2024-07-26 11:26:51.532 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.533 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S04], result: [false]
+2024-07-26 11:26:51.533 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false||false||false]
+2024-07-26 11:26:51.533 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:51.533 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:51.534 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [-1]
+2024-07-26 11:26:51.534 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [-1 > 1]
+2024-07-26 11:26:51.534 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.534 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:51.534 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:51.534 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false]
+2024-07-26 11:26:51.535 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:51.535 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:51.535 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - FINISH EVALUATE RULE ID: [17] NAME: [TRANSAKSI ATM/EDC DI NEGARA YANG BERBEDA DALAM RENTANG WAKTU KURANG DARI (X) MENIT] PRIORITY: [1] RESULT: [false]
+2024-07-26 11:26:51.536 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [19] NAME: [USER TELLER (X) MELAKUKAN TRANSAKSI REVERSAL (KET REV)] PRIORITY: [1]
+2024-07-26 11:26:51.537 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S01]
+2024-07-26 11:26:51.537 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:51.537 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S01] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;transType) == '114']
+2024-07-26 11:26:51.538 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;transType) == '114'
+2024-07-26 11:26:51.538 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;transType) == '114'
+2024-07-26 11:26:51.539 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;transType]
+2024-07-26 11:26:51.590 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [transType]
+2024-07-26 11:26:51.591 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.transType)]
+2024-07-26 11:26:51.592 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.transType) == '114']
+2024-07-26 11:26:51.593 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '114'
+2024-07-26 11:26:51.594 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.transType) == 114]
+2024-07-26 11:26:51.594 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.597 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:51.597 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:51.598 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false]
+2024-07-26 11:26:51.598 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:51.599 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:51.599 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - FINISH EVALUATE RULE ID: [19] NAME: [USER TELLER (X) MELAKUKAN TRANSAKSI REVERSAL (KET REV)] PRIORITY: [1] RESULT: [false]
+2024-07-26 11:26:51.599 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [20] NAME: [ USER CUSTOMER SERVICE MELAKUKAN AKTIVITAS PEMBUKAAN BLOKIR] PRIORITY: [1]
+2024-07-26 11:26:51.599 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S01]
+2024-07-26 11:26:51.600 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:51.600 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S01] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;transType) == '116']
+2024-07-26 11:26:51.600 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;transType) == '116'
+2024-07-26 11:26:51.601 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;transType) == '116'
+2024-07-26 11:26:51.608 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;transType]
+2024-07-26 11:26:51.609 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [transType]
+2024-07-26 11:26:51.609 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.transType)]
+2024-07-26 11:26:51.609 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.transType) == '116']
+2024-07-26 11:26:51.609 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '116'
+2024-07-26 11:26:51.609 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.transType) == 116]
+2024-07-26 11:26:51.609 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.610 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:51.611 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:51.611 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false]
+2024-07-26 11:26:51.611 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:51.611 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:51.611 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - FINISH EVALUATE RULE ID: [20] NAME: [ USER CUSTOMER SERVICE MELAKUKAN AKTIVITAS PEMBUKAAN BLOKIR] PRIORITY: [1] RESULT: [false]
+2024-07-26 11:26:51.611 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - START EVALUATE RULE ID: [21] NAME: [USER CUSTOMER SERVICE MELAKUKAN AKTIVITAS PENGAKTIFAN REKENING DORMAN] PRIORITY: [1]
+2024-07-26 11:26:51.612 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial formula: [S01]
+2024-07-26 11:26:51.612 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start processing formula [S01]
+2024-07-26 11:26:51.612 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Detail formula: 
+	Condition id: [S01] 
+	Type: [CONSTANT] 
+	Expression: [$(CONSTANT;0;CARD;transType) == '115']
+2024-07-26 11:26:51.613 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Initial Expression: $(CONSTANT;0;CARD;transType) == '115'
+2024-07-26 11:26:51.613 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Starting DSL resolution with expression: $(CONSTANT;0;CARD;transType) == '115'
+2024-07-26 11:26:51.613 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Extracted Keyword: [CONSTANT;0;CARD;transType]
+2024-07-26 11:26:51.613 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Parsed keyword: 
+	Condition Type: [CONSTANT] 
+	Depth History: [0] 
+	History By: [CARD] 
+	Field: [transType]
+2024-07-26 11:26:51.614 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Resolve Value: [tyChe.cvt(input.transType)]
+2024-07-26 11:26:51.614 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final expression result: [tyChe.cvt(input.transType) == '115']
+2024-07-26 11:26:51.614 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Constant value is integer: '115'
+2024-07-26 11:26:51.614 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [tyChe.cvt(input.transType) == 115]
+2024-07-26 11:26:51.614 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate expression...
+2024-07-26 11:26:51.615 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Evaluate Result: [false]
+2024-07-26 11:26:51.616 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Finish processing formula [S01], result: [false]
+2024-07-26 11:26:51.616 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final formula: [false]
+2024-07-26 11:26:51.616 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Start evaluate formula...
+2024-07-26 11:26:51.616 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Final evaluate result: [false]
+2024-07-26 11:26:51.616 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - FINISH EVALUATE RULE ID: [21] NAME: [USER CUSTOMER SERVICE MELAKUKAN AKTIVITAS PENGAKTIFAN REKENING DORMAN] PRIORITY: [1] RESULT: [false]
+2024-07-26 11:26:51.632 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Got response null, from Rule
+2024-07-26 11:26:51.632 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - [Finish Checking Data in Rule]
+2024-07-26 11:26:51.632 INFO  [4f8c3085-0285-4797-8b7d-517005c78b0d] - Send data to [Transaction Engine]
