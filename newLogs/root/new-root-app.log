@@ -6330,3 +6330,932 @@ Caused by: java.lang.InterruptedException: null
 	... 32 common frames omitted
 2024-07-25 14:11:55.052 INFO  [] - HikariPool-1 - Shutdown initiated...
 2024-07-25 14:11:58.724 INFO  [] - HikariPool-1 - Shutdown completed.
+2024-07-25 15:10:18.313 INFO  [] - Starting FraudDetectionSystemApplication using Java 17.0.11 on asus with PID 5832 (C:\Users\ASUS\Documents\java-project\Dev-fraudDetectionSystem\target\classes started by ASUS in C:\Users\ASUS\Documents\java-project\Dev-fraudDetectionSystem)
+2024-07-25 15:10:18.329 INFO  [] - No active profile set, falling back to 1 default profile: "default"
+2024-07-25 15:10:18.751 INFO  [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-25 15:10:25.071 INFO  [] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-25 15:10:27.817 INFO  [] - Finished Spring Data repository scanning in 2694 ms. Found 67 JPA repository interfaces.
+2024-07-25 15:10:30.950 INFO  [] - Tomcat initialized with port(s): 8383 (http)
+2024-07-25 15:10:30.981 INFO  [] - Initializing ProtocolHandler ["http-nio-8383"]
+2024-07-25 15:10:30.983 INFO  [] - Starting service [Tomcat]
+2024-07-25 15:10:30.984 INFO  [] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-25 15:10:31.489 INFO  [] - Initializing Spring embedded WebApplicationContext
+2024-07-25 15:10:31.490 INFO  [] - Root WebApplicationContext: initialization completed in 12735 ms
+2024-07-25 15:10:33.010 INFO  [] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-25 15:10:33.267 INFO  [] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-07-25 15:10:33.952 INFO  [] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-25 15:10:34.270 INFO  [] - HikariPool-1 - Starting...
+2024-07-25 15:10:37.218 INFO  [] - HikariPool-1 - Start completed.
+2024-07-25 15:10:37.300 INFO  [] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-07-25 15:11:06.712 INFO  [] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-25 15:11:10.034 INFO  [] - [FETCHING CHANNEL CONFIGURATION]
+2024-07-25 15:11:12.941 INFO  [] - [FETCH CHANNEL CONFIGURATION FINISHED]
+2024-07-25 15:11:13.508 INFO  [] - [FETCHING ISO CONFIGURATION]
+2024-07-25 15:11:14.258 INFO  [] - Success fetch iso configuration with total configuration: 4
+2024-07-25 15:11:14.260 INFO  [] - [FETCH ISO CONFIGURATION FINISHED]
+2024-07-25 15:11:14.338 INFO  [] - [FETCHING FIELD ENCODING]
+2024-07-25 15:11:14.697 INFO  [] - Success fetch field encoding with total encoding: 4
+2024-07-25 15:11:14.697 INFO  [] - [FETCH FIELD ENCODING FINISHED]
+2024-07-25 15:11:14.754 INFO  [] - [FETCHING FIELD FORMAT]
+2024-07-25 15:11:14.969 INFO  [] - Success fetch field format with total format: 11
+2024-07-25 15:11:14.970 INFO  [] - [FETCH FIELD FORMAT FINISHED]
+2024-07-25 15:11:14.979 INFO  [] - [FETCHING HEADER CONFIGURATION]
+2024-07-25 15:11:15.121 INFO  [] - Success fetch header configuration with network id: 1 with total configuration: 0
+2024-07-25 15:11:15.229 INFO  [] - Success fetch header configuration with network id: 2 with total configuration: 0
+2024-07-25 15:11:15.230 INFO  [] - Network id: 3 not have header configuration, skipping...
+2024-07-25 15:11:15.292 INFO  [] - Success fetch header configuration with network id: 4 with total configuration: 0
+2024-07-25 15:11:15.292 INFO  [] - [FETCH HEADER CONFIGURATION FINISHED]
+2024-07-25 15:11:15.299 INFO  [] - [SETTING HEADER CONFIGURATION CONTAINER]
+2024-07-25 15:11:15.301 INFO  [] - Success fetch header configuration with total: 3
+2024-07-25 15:11:15.301 INFO  [] - [SUCCESS SETTING HEADER CONFIGURATION CONTAINER]
+2024-07-25 15:11:15.493 INFO  [] - [FETCHING FIELD CONFIGURATION]
+2024-07-25 15:11:29.721 INFO  [] - Success fetch field configuration
+2024-07-25 15:11:29.722 INFO  [] - [FETCH FIELD CONFIGURATION FINISHED]
+2024-07-25 15:11:29.801 INFO  [] - [FETCHING EMV CONFIGURATION]
+2024-07-25 15:11:30.082 WARN  [] - [THERE IS NO DATA FOR EMV CONFIGURATION]
+2024-07-25 15:11:30.083 INFO  [] - [FETCHING EMV CONFIGURATION FINISHED]
+2024-07-25 15:11:30.085 INFO  [] - [SETTING ISO CONFIGURATION CONTAINER]
+2024-07-25 15:11:30.087 INFO  [] - Success setting iso container with network id: 1 with total configuration: 0
+2024-07-25 15:11:30.087 INFO  [] - Success setting iso container with network id: 2 with total configuration: 0
+2024-07-25 15:11:30.115 ERROR [] - Error during setting iso container with network id: 3. Detail: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "hbm.fraudDetectionSystem.TransactionEngine.Core.ISO8583.SpringLogic.SubFieldConfiguration.SubFieldConfiguration.getPad()" is null
+2024-07-25 15:11:30.117 INFO  [] - Success setting iso container with network id: 4 with total configuration: 0
+2024-07-25 15:11:30.117 INFO  [] - [SETTING ISO CONFIGURATION CONTAINER FINISHED]
+2024-07-25 15:11:30.317 INFO  [] - [FETCHING JSON CHANNEL CONFIGURATION]
+2024-07-25 15:11:31.115 INFO  [] - [FETCH JSON CHANNEL CONFIGURATION FINISHED]
+2024-07-25 15:11:31.118 INFO  [] - [FETCHING JSON FIELD CONFIGURATION]
+2024-07-25 15:11:46.299 INFO  [] - Success fetch field configuration with base endpoint: v2
+2024-07-25 15:12:10.215 INFO  [] - Success fetch field configuration with base endpoint: Api/v1/Product
+2024-07-25 15:12:14.388 INFO  [] - Success fetch field configuration with base endpoint: v2
+2024-07-25 15:12:14.389 INFO  [] - Success processing fetch field configuration
+2024-07-25 15:12:14.389 INFO  [] - [FETCH JSON FIELD CONFIGURATION FINISHED]
+2024-07-25 15:12:14.539 INFO  [] - [FETCHING JSON HEADER CONFIGURATION]
+2024-07-25 15:12:16.707 INFO  [] - Success fetch json header configuration with base endpoint: v2
+2024-07-25 15:12:19.003 INFO  [] - Success fetch json header configuration with base endpoint: Api/v1/Product
+2024-07-25 15:12:19.087 INFO  [] - Success fetch json header configuration with base endpoint: v2
+2024-07-25 15:12:19.088 INFO  [] - Success fetch json header configuration with base endpoint
+2024-07-25 15:12:19.088 INFO  [] - [FETCH JSON HEADER CONFIGURATION FINISHED]
+2024-07-25 15:12:19.373 INFO  [] - [FETCHING JSON TRANS ATTR]
+2024-07-25 15:12:19.956 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 1 and total configuration: 11
+2024-07-25 15:12:20.331 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 2 and total configuration: 36
+2024-07-25 15:12:20.781 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 3 and total configuration: 35
+2024-07-25 15:12:21.249 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 4 and total configuration: 34
+2024-07-25 15:12:21.640 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 5 and total configuration: 11
+2024-07-25 15:12:22.108 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 6 and total configuration: 38
+2024-07-25 15:12:22.370 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 7 and total configuration: 43
+2024-07-25 15:12:22.617 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 8 and total configuration: 41
+2024-07-25 15:12:22.909 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 9 and total configuration: 8
+2024-07-25 15:12:23.056 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 11 and total configuration: 8
+2024-07-25 15:12:23.410 INFO  [] - Success fetch trans attr with config id: 4, endpoint id: 10 and total configuration: 39
+2024-07-25 15:12:23.410 INFO  [] - Success fetch trans attr
+2024-07-25 15:12:23.411 INFO  [] - [FETCH JSON TRANS ATTR FINISHED]
+2024-07-25 15:12:23.691 INFO  [] - [FETCHING TRANS MSG CONFIGURATION]
+2024-07-25 15:12:30.400 INFO  [] - Success fetch field configuration with network id: 1 with total configuration: 4
+2024-07-25 15:12:36.213 INFO  [] - Success fetch field configuration with network id: 2 with total configuration: 4
+2024-07-25 15:12:39.043 INFO  [] - Success fetch field configuration with network id: 3 with total configuration: 6
+2024-07-25 15:12:44.052 INFO  [] - Success fetch field configuration with network id: 4 with total configuration: 0
+2024-07-25 15:12:44.053 WARN  [] - [THERE IS NO DATA FOR TRANS MSG CONFIGURATION]
+2024-07-25 15:12:44.053 INFO  [] - [FETCH TRANS MSG CONFIGURATION FINISHED]
+2024-07-25 15:12:44.297 INFO  [] - [FETCHING EXTERNAL TRANS TYPE]
+2024-07-25 15:12:47.250 INFO  [] - Success fetch internal trans type with config id: 1 and total configuration: 5
+2024-07-25 15:12:47.251 INFO  [] - Success fetch internal trans type with config id: 2 and total configuration: 4
+2024-07-25 15:12:47.251 INFO  [] - Success fetch internal trans type with config id: 3 and total configuration: 7
+2024-07-25 15:12:47.252 INFO  [] - Success fetch internal trans type with config id: 4 and total configuration: 3
+2024-07-25 15:12:47.253 INFO  [] - Success fetch internal trans type with total configurations: 4
+2024-07-25 15:12:47.254 INFO  [] - [FETCH EXTERNAL TRANS TYPE FINISHED]
+2024-07-25 15:12:48.841 INFO  [] - [FETCHING EXTERNAL RESP CODE]
+2024-07-25 15:12:52.180 INFO  [] - Success fetch internal response with config id: 1 and total configuration: 3
+2024-07-25 15:12:52.181 INFO  [] - Success fetch internal response with config id: 2 and total configuration: 4
+2024-07-25 15:12:52.182 INFO  [] - Success fetch internal response with config id: 3 and total configuration: 1
+2024-07-25 15:12:52.182 INFO  [] - Success fetch internal response with config id: 4 and total configuration: 1
+2024-07-25 15:12:52.182 INFO  [] - Success fetch internal response code
+2024-07-25 15:12:52.182 INFO  [] - [FETCH EXTERNAL RESP CODE FINISHED]
+2024-07-25 15:12:54.200 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - Start executing OLIBS Jobs
+2024-07-25 15:12:54.413 INFO  [] - [FETCHING TRANSACTION ID SEQ]
+2024-07-25 15:12:57.449 INFO  [] - Success fetch transaction id seq, current value: 362869
+2024-07-25 15:12:57.450 INFO  [] - [FETCH TRANSACTION ID SEQ FINISHED]
+2024-07-25 15:12:57.452 INFO  [] - [FETCHING AUDIT ID SEQ]
+2024-07-25 15:12:57.474 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - Fetching auth token
+2024-07-25 15:12:57.488 WARN  [] - There is no sequence to be fetched.
+2024-07-25 15:12:57.488 INFO  [] - [FETCH AUDIT ID SEQ FINISHED]
+2024-07-25 15:12:57.712 INFO  [] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2402926e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77e1759, org.springframework.security.web.context.SecurityContextPersistenceFilter@33f5dbc2, org.springframework.security.web.header.HeaderWriterFilter@78432870, org.springframework.web.filter.CorsFilter@7d2992f, org.springframework.security.web.authentication.logout.LogoutFilter@6b5f699b, hbm.fraudDetectionSystem.SecurityEngine.Filter.JwtAuthorizationFilter@60e59371, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24245083, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7ac24451, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@80ee91a, org.springframework.security.web.session.SessionManagementFilter@74e94fe, org.springframework.security.web.access.ExceptionTranslationFilter@c63ab3c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b768a7b]
+2024-07-25 15:12:57.751 INFO  [] - [FETCHING FIELD RULE COMPARATOR]
+2024-07-25 15:12:59.068 WARN  [] - [THERE IS NO DATA FOR FIELD RULE COMPARATOR]
+2024-07-25 15:12:59.068 INFO  [] - [FETCH FIELD RULE COMPARATOR FINISHED]
+2024-07-25 15:12:59.071 INFO  [] - [FETCHING SUPPORTED MTI]
+2024-07-25 15:12:59.289 INFO  [] - Success fetch MTI, with total MTI: 3
+2024-07-25 15:12:59.290 INFO  [] - [FETCH SUPPORTED MTI FINISHED]
+2024-07-25 15:12:59.292 INFO  [] - [FETCHING TRANS ATTR]
+2024-07-25 15:12:59.436 INFO  [] - Success fetch trans attr with config id: 1 and total configuration: 8
+2024-07-25 15:12:59.531 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - [281b12f9] REGISTERED
+2024-07-25 15:12:59.535 INFO  [] - Success fetch trans attr with config id: 2 and total configuration: 8
+2024-07-25 15:12:59.606 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - [281b12f9] CONNECT: /127.0.0.1:7543
+2024-07-25 15:12:59.619 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - [281b12f9] CLOSE
+2024-07-25 15:12:59.658 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 15:12:59.659 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-25 15:12:59.661 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - [281b12f9] UNREGISTERED
+2024-07-25 15:12:59.670 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - [731d6d19] REGISTERED
+2024-07-25 15:12:59.675 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - [731d6d19] CONNECT: /127.0.0.1:7543
+2024-07-25 15:12:59.678 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - [731d6d19] CLOSE
+2024-07-25 15:12:59.680 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 15:12:59.681 INFO  [d2a41bfe-aeb0-4dcd-811b-b057f542acd4] - [731d6d19] UNREGISTERED
+2024-07-25 15:12:59.783 INFO  [] - Success fetch trans attr with config id: 3 and total configuration: 44
+2024-07-25 15:13:00.035 INFO  [] - Success fetch trans attr with config id: 4 and total configuration: 8
+2024-07-25 15:13:00.035 INFO  [] - Success fetch trans attr
+2024-07-25 15:13:00.035 INFO  [] - [FETCH TRANS ATTR FINISHED]
+2024-07-25 15:13:02.934 INFO  [] - LiveReload server is running on port 35729
+2024-07-25 15:13:02.997 INFO  [] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-25 15:13:03.086 INFO  [] - Starting ProtocolHandler ["http-nio-8383"]
+2024-07-25 15:13:03.135 INFO  [] - Tomcat started on port(s): 8383 (http) with context path ''
+2024-07-25 15:13:03.199 INFO  [] - Started FraudDetectionSystemApplication in 167.069 seconds (JVM running for 170.948)
+2024-07-25 15:13:03.403 INFO  [] - Prepare container by config id
+2024-07-25 15:13:03.533 INFO  [] - Successfully prepare container
+2024-07-25 15:13:03.541 INFO  [] - Prepare container by config id
+2024-07-25 15:13:03.542 INFO  [] - Successfully prepare container
+2024-07-25 15:13:03.556 INFO  [] - Server listening on port: 8484
+2024-07-25 15:13:03.560 INFO  [] - Server listening on port: 8787
+2024-07-25 15:15:00.009 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - Start executing OLIBS Jobs
+2024-07-25 15:15:00.340 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - Fetching auth token
+2024-07-25 15:15:00.454 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - [79b74823] REGISTERED
+2024-07-25 15:15:00.466 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - [79b74823] CONNECT: /127.0.0.1:7543
+2024-07-25 15:15:00.474 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - [79b74823] CLOSE
+2024-07-25 15:15:00.489 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 15:15:00.490 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-25 15:15:00.490 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - [79b74823] UNREGISTERED
+2024-07-25 15:15:00.501 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - [8a4a469d] REGISTERED
+2024-07-25 15:15:00.503 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - [8a4a469d] CONNECT: /127.0.0.1:7543
+2024-07-25 15:15:00.505 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - [8a4a469d] CLOSE
+2024-07-25 15:15:00.508 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 15:15:00.508 INFO  [b1b1ffe2-d684-4450-923b-d3a3f53db135] - [8a4a469d] UNREGISTERED
+2024-07-25 15:20:00.032 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - Start executing OLIBS Jobs
+2024-07-25 15:20:00.522 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - Fetching auth token
+2024-07-25 15:20:00.763 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - [e8d4aea4] REGISTERED
+2024-07-25 15:20:00.769 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - [e8d4aea4] CONNECT: /127.0.0.1:7543
+2024-07-25 15:20:00.798 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - [e8d4aea4] CLOSE
+2024-07-25 15:20:00.853 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 15:20:00.855 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - [e8d4aea4] UNREGISTERED
+2024-07-25 15:20:00.855 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-25 15:20:00.882 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - [d715b07c] REGISTERED
+2024-07-25 15:20:00.882 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - [d715b07c] CONNECT: /127.0.0.1:7543
+2024-07-25 15:20:00.884 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - [d715b07c] CLOSE
+2024-07-25 15:20:00.885 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 15:20:00.889 INFO  [a7b811a5-5fb7-413c-a34c-f670de922bf7] - [d715b07c] UNREGISTERED
+2024-07-25 15:21:37.300 WARN  [] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@6730c9f7 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-07-25 15:22:03.226 INFO  [] - HikariPool-1 - Shutdown initiated...
+2024-07-25 15:22:03.945 INFO  [] - HikariPool-1 - Shutdown completed.
+2024-07-25 15:22:44.065 INFO  [] - Starting FraudDetectionSystemApplication using Java 17.0.11 on asus with PID 4284 (C:\Users\ASUS\Documents\java-project\Dev-fraudDetectionSystem\target\classes started by ASUS in C:\Users\ASUS\Documents\java-project\Dev-fraudDetectionSystem)
+2024-07-25 15:22:44.085 INFO  [] - No active profile set, falling back to 1 default profile: "default"
+2024-07-25 15:22:44.389 INFO  [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-25 15:22:51.065 INFO  [] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-25 15:22:54.092 INFO  [] - Finished Spring Data repository scanning in 2974 ms. Found 67 JPA repository interfaces.
+2024-07-25 15:22:59.551 INFO  [] - Tomcat initialized with port(s): 8383 (http)
+2024-07-25 15:22:59.590 INFO  [] - Initializing ProtocolHandler ["http-nio-8383"]
+2024-07-25 15:22:59.592 INFO  [] - Starting service [Tomcat]
+2024-07-25 15:22:59.593 INFO  [] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-25 15:23:00.122 INFO  [] - Initializing Spring embedded WebApplicationContext
+2024-07-25 15:23:00.123 INFO  [] - Root WebApplicationContext: initialization completed in 15728 ms
+2024-07-25 15:23:01.433 INFO  [] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-25 15:23:01.619 INFO  [] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-07-25 15:23:02.170 INFO  [] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-25 15:23:02.732 INFO  [] - HikariPool-1 - Starting...
+2024-07-25 15:23:05.249 INFO  [] - HikariPool-1 - Start completed.
+2024-07-25 15:23:05.369 INFO  [] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-07-25 15:23:42.108 INFO  [] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-25 15:23:45.642 INFO  [] - [FETCHING CHANNEL CONFIGURATION]
+2024-07-25 15:23:46.666 INFO  [] - [FETCH CHANNEL CONFIGURATION FINISHED]
+2024-07-25 15:23:46.982 INFO  [] - [FETCHING ISO CONFIGURATION]
+2024-07-25 15:23:48.401 INFO  [] - Success fetch iso configuration with total configuration: 4
+2024-07-25 15:23:48.401 INFO  [] - [FETCH ISO CONFIGURATION FINISHED]
+2024-07-25 15:23:48.468 INFO  [] - [FETCHING FIELD ENCODING]
+2024-07-25 15:23:48.742 INFO  [] - Success fetch field encoding with total encoding: 4
+2024-07-25 15:23:48.743 INFO  [] - [FETCH FIELD ENCODING FINISHED]
+2024-07-25 15:23:48.784 INFO  [] - [FETCHING FIELD FORMAT]
+2024-07-25 15:23:48.926 INFO  [] - Success fetch field format with total format: 11
+2024-07-25 15:23:48.926 INFO  [] - [FETCH FIELD FORMAT FINISHED]
+2024-07-25 15:23:48.933 INFO  [] - [FETCHING HEADER CONFIGURATION]
+2024-07-25 15:23:49.012 INFO  [] - Success fetch header configuration with network id: 1 with total configuration: 0
+2024-07-25 15:23:49.086 INFO  [] - Success fetch header configuration with network id: 2 with total configuration: 0
+2024-07-25 15:23:49.087 INFO  [] - Network id: 3 not have header configuration, skipping...
+2024-07-25 15:23:49.142 INFO  [] - Success fetch header configuration with network id: 4 with total configuration: 0
+2024-07-25 15:23:49.142 INFO  [] - [FETCH HEADER CONFIGURATION FINISHED]
+2024-07-25 15:23:49.147 INFO  [] - [SETTING HEADER CONFIGURATION CONTAINER]
+2024-07-25 15:23:49.149 INFO  [] - Success fetch header configuration with total: 3
+2024-07-25 15:23:49.149 INFO  [] - [SUCCESS SETTING HEADER CONFIGURATION CONTAINER]
+2024-07-25 15:23:49.339 INFO  [] - [FETCHING FIELD CONFIGURATION]
+2024-07-25 15:23:54.432 INFO  [] - Success fetch field configuration with network id: 1 with total configuration: 0
+2024-07-25 15:24:00.612 INFO  [] - Success fetch field configuration with network id: 2 with total configuration: 0
+2024-07-25 15:24:02.431 INFO  [] - Success fetch field configuration with network id: 3 with total configuration: 39
+2024-07-25 15:24:07.522 INFO  [] - Success fetch field configuration with network id: 4 with total configuration: 0
+2024-07-25 15:24:07.523 INFO  [] - Success fetch field configuration with total: %d
+2024-07-25 15:24:07.523 INFO  [] - [FETCH FIELD CONFIGURATION FINISHED]
+2024-07-25 15:24:07.611 INFO  [] - [FETCHING EMV CONFIGURATION]
+2024-07-25 15:24:07.662 WARN  [] - [THERE IS NO DATA FOR EMV CONFIGURATION]
+2024-07-25 15:24:07.663 INFO  [] - [FETCHING EMV CONFIGURATION FINISHED]
+2024-07-25 15:24:07.665 INFO  [] - [SETTING ISO CONFIGURATION CONTAINER]
+2024-07-25 15:24:07.666 INFO  [] - Success setting iso container with network id: 1 with total configuration: 0
+2024-07-25 15:24:07.667 INFO  [] - Success setting iso container with network id: 2 with total configuration: 0
+2024-07-25 15:24:07.693 ERROR [] - Error during setting iso container with network id: 3. Detail: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "hbm.fraudDetectionSystem.TransactionEngine.Core.ISO8583.SpringLogic.SubFieldConfiguration.SubFieldConfiguration.getPad()" is null
+2024-07-25 15:24:07.695 INFO  [] - Success setting iso container with network id: 4 with total configuration: 0
+2024-07-25 15:24:07.695 INFO  [] - [SETTING ISO CONFIGURATION CONTAINER FINISHED]
+2024-07-25 15:24:07.886 INFO  [] - [FETCHING JSON CHANNEL CONFIGURATION]
+2024-07-25 15:24:08.308 INFO  [] - [FETCH JSON CHANNEL CONFIGURATION FINISHED]
+2024-07-25 15:24:08.310 INFO  [] - [FETCHING JSON FIELD CONFIGURATION]
+2024-07-25 15:24:14.807 INFO  [] - Success fetch field configuration with base endpoint: v2
+2024-07-25 15:24:40.722 INFO  [] - Success fetch field configuration with base endpoint: Api/v1/Product
+2024-07-25 15:24:44.958 INFO  [] - Success fetch field configuration with base endpoint: v2
+2024-07-25 15:24:44.959 INFO  [] - Success processing fetch field configuration
+2024-07-25 15:24:44.959 INFO  [] - [FETCH JSON FIELD CONFIGURATION FINISHED]
+2024-07-25 15:24:46.059 INFO  [] - [FETCHING JSON HEADER CONFIGURATION]
+2024-07-25 15:24:49.368 INFO  [] - Success fetch json header configuration with base endpoint: v2
+2024-07-25 15:24:51.710 INFO  [] - Success fetch json header configuration with base endpoint: Api/v1/Product
+2024-07-25 15:24:51.826 INFO  [] - Success fetch json header configuration with base endpoint: v2
+2024-07-25 15:24:51.827 INFO  [] - Success fetch json header configuration with base endpoint
+2024-07-25 15:24:51.828 INFO  [] - [FETCH JSON HEADER CONFIGURATION FINISHED]
+2024-07-25 15:24:52.013 INFO  [] - [FETCHING JSON TRANS ATTR]
+2024-07-25 15:24:52.199 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 1 and total configuration: 11
+2024-07-25 15:24:52.437 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 2 and total configuration: 36
+2024-07-25 15:24:52.606 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 3 and total configuration: 35
+2024-07-25 15:24:52.842 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 4 and total configuration: 34
+2024-07-25 15:24:53.103 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 5 and total configuration: 11
+2024-07-25 15:24:53.552 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 6 and total configuration: 38
+2024-07-25 15:24:53.775 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 7 and total configuration: 43
+2024-07-25 15:24:54.050 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 8 and total configuration: 41
+2024-07-25 15:24:54.222 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 9 and total configuration: 8
+2024-07-25 15:24:54.374 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 11 and total configuration: 8
+2024-07-25 15:24:54.661 INFO  [] - Success fetch trans attr with config id: 4, endpoint id: 10 and total configuration: 39
+2024-07-25 15:24:54.662 INFO  [] - Success fetch trans attr
+2024-07-25 15:24:54.662 INFO  [] - [FETCH JSON TRANS ATTR FINISHED]
+2024-07-25 15:24:54.917 INFO  [] - [FETCHING TRANS MSG CONFIGURATION]
+2024-07-25 15:25:12.358 INFO  [] - Success fetch field configuration with network id: 1 with total configuration: 4
+2024-07-25 15:25:17.743 INFO  [] - Success fetch field configuration with network id: 2 with total configuration: 4
+2024-07-25 15:25:29.147 INFO  [] - Success fetch field configuration with network id: 3 with total configuration: 6
+2024-07-25 15:25:38.359 INFO  [] - Success fetch field configuration with network id: 4 with total configuration: 0
+2024-07-25 15:25:38.360 WARN  [] - [THERE IS NO DATA FOR TRANS MSG CONFIGURATION]
+2024-07-25 15:25:38.361 INFO  [] - [FETCH TRANS MSG CONFIGURATION FINISHED]
+2024-07-25 15:25:38.469 INFO  [] - [FETCHING EXTERNAL TRANS TYPE]
+2024-07-25 15:25:41.859 INFO  [] - Success fetch internal trans type with config id: 1 and total configuration: 5
+2024-07-25 15:25:41.860 INFO  [] - Success fetch internal trans type with config id: 2 and total configuration: 4
+2024-07-25 15:25:41.861 INFO  [] - Success fetch internal trans type with config id: 3 and total configuration: 7
+2024-07-25 15:25:41.861 INFO  [] - Success fetch internal trans type with config id: 4 and total configuration: 3
+2024-07-25 15:25:41.861 INFO  [] - Success fetch internal trans type with total configurations: 4
+2024-07-25 15:25:41.862 INFO  [] - [FETCH EXTERNAL TRANS TYPE FINISHED]
+2024-07-25 15:25:54.836 INFO  [] - [FETCHING EXTERNAL RESP CODE]
+2024-07-25 15:25:57.575 INFO  [] - Success fetch internal response with config id: 1 and total configuration: 3
+2024-07-25 15:25:57.576 INFO  [] - Success fetch internal response with config id: 2 and total configuration: 4
+2024-07-25 15:25:57.576 INFO  [] - Success fetch internal response with config id: 3 and total configuration: 1
+2024-07-25 15:25:57.577 INFO  [] - Success fetch internal response with config id: 4 and total configuration: 1
+2024-07-25 15:25:57.577 INFO  [] - Success fetch internal response code
+2024-07-25 15:25:57.577 INFO  [] - [FETCH EXTERNAL RESP CODE FINISHED]
+2024-07-25 15:25:59.948 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - Start executing OLIBS Jobs
+2024-07-25 15:26:00.131 INFO  [] - [FETCHING TRANSACTION ID SEQ]
+2024-07-25 15:26:00.293 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - Fetching auth token
+2024-07-25 15:26:00.418 INFO  [] - Success fetch transaction id seq, current value: 362869
+2024-07-25 15:26:00.418 INFO  [] - [FETCH TRANSACTION ID SEQ FINISHED]
+2024-07-25 15:26:00.420 INFO  [] - [FETCHING AUDIT ID SEQ]
+2024-07-25 15:26:00.657 WARN  [] - There is no sequence to be fetched.
+2024-07-25 15:26:00.657 INFO  [] - [FETCH AUDIT ID SEQ FINISHED]
+2024-07-25 15:26:00.888 INFO  [] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@b6e842b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c82a5ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@507bf08d, org.springframework.security.web.header.HeaderWriterFilter@7cba2514, org.springframework.web.filter.CorsFilter@7d7cab74, org.springframework.security.web.authentication.logout.LogoutFilter@2ddccf6e, hbm.fraudDetectionSystem.SecurityEngine.Filter.JwtAuthorizationFilter@4dd0ea6f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@48bdd82b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6177cf7b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33b3eeaf, org.springframework.security.web.session.SessionManagementFilter@49b246c6, org.springframework.security.web.access.ExceptionTranslationFilter@16dab7c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5f325e26]
+2024-07-25 15:26:00.922 INFO  [] - [FETCHING FIELD RULE COMPARATOR]
+2024-07-25 15:26:02.618 WARN  [] - [THERE IS NO DATA FOR FIELD RULE COMPARATOR]
+2024-07-25 15:26:02.619 INFO  [] - [FETCH FIELD RULE COMPARATOR FINISHED]
+2024-07-25 15:26:02.621 INFO  [] - [FETCHING SUPPORTED MTI]
+2024-07-25 15:26:02.684 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - [64d449c6] REGISTERED
+2024-07-25 15:26:02.745 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - [64d449c6] CONNECT: /127.0.0.1:7543
+2024-07-25 15:26:02.756 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - [64d449c6] CLOSE
+2024-07-25 15:26:02.773 INFO  [] - Success fetch MTI, with total MTI: 3
+2024-07-25 15:26:02.774 INFO  [] - [FETCH SUPPORTED MTI FINISHED]
+2024-07-25 15:26:02.775 INFO  [] - [FETCHING TRANS ATTR]
+2024-07-25 15:26:02.797 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 15:26:02.799 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - [64d449c6] UNREGISTERED
+2024-07-25 15:26:02.799 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-25 15:26:02.826 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - [2bc583b5] REGISTERED
+2024-07-25 15:26:03.035 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - [2bc583b5] CONNECT: /127.0.0.1:7543
+2024-07-25 15:26:03.038 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - [2bc583b5] CLOSE
+2024-07-25 15:26:03.048 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 15:26:03.050 INFO  [a8d1c825-5e65-4053-86aa-600845eaabc5] - [2bc583b5] UNREGISTERED
+2024-07-25 15:26:03.082 INFO  [] - Success fetch trans attr with config id: 1 and total configuration: 8
+2024-07-25 15:26:03.148 INFO  [] - Success fetch trans attr with config id: 2 and total configuration: 8
+2024-07-25 15:26:03.468 INFO  [] - Success fetch trans attr with config id: 3 and total configuration: 44
+2024-07-25 15:26:03.591 INFO  [] - Success fetch trans attr with config id: 4 and total configuration: 8
+2024-07-25 15:26:03.592 INFO  [] - Success fetch trans attr
+2024-07-25 15:26:03.592 INFO  [] - [FETCH TRANS ATTR FINISHED]
+2024-07-25 15:26:24.339 INFO  [] - LiveReload server is running on port 35729
+2024-07-25 15:26:25.050 INFO  [] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-25 15:26:25.658 INFO  [] - Starting ProtocolHandler ["http-nio-8383"]
+2024-07-25 15:26:25.833 INFO  [] - Tomcat started on port(s): 8383 (http) with context path ''
+2024-07-25 15:26:26.380 INFO  [] - Started FraudDetectionSystemApplication in 224.769 seconds (JVM running for 229.715)
+2024-07-25 15:26:26.730 INFO  [] - Prepare container by config id
+2024-07-25 15:26:27.145 INFO  [] - Successfully prepare container
+2024-07-25 15:26:27.166 INFO  [] - Prepare container by config id
+2024-07-25 15:26:27.168 INFO  [] - Successfully prepare container
+2024-07-25 15:26:27.167 INFO  [] - Server listening on port: 8484
+2024-07-25 15:26:27.173 INFO  [] - Server listening on port: 8787
+2024-07-25 15:29:59.042 INFO  [] - HikariPool-1 - Shutdown initiated...
+2024-07-25 15:29:59.837 INFO  [] - HikariPool-1 - Shutdown completed.
+2024-07-25 16:01:57.631 INFO  [] - Starting FraudDetectionSystemApplication using Java 17.0.11 on asus with PID 1680 (C:\Users\ASUS\Documents\java-project\Dev-fraudDetectionSystem\target\classes started by ASUS in C:\Users\ASUS\Documents\java-project\Dev-fraudDetectionSystem)
+2024-07-25 16:01:57.640 INFO  [] - No active profile set, falling back to 1 default profile: "default"
+2024-07-25 16:01:57.841 INFO  [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-25 16:02:03.940 INFO  [] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-25 16:02:05.910 INFO  [] - Finished Spring Data repository scanning in 1919 ms. Found 67 JPA repository interfaces.
+2024-07-25 16:02:09.025 INFO  [] - Tomcat initialized with port(s): 8383 (http)
+2024-07-25 16:02:09.089 INFO  [] - Initializing ProtocolHandler ["http-nio-8383"]
+2024-07-25 16:02:09.092 INFO  [] - Starting service [Tomcat]
+2024-07-25 16:02:09.093 INFO  [] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-25 16:02:10.122 INFO  [] - Initializing Spring embedded WebApplicationContext
+2024-07-25 16:02:10.123 INFO  [] - Root WebApplicationContext: initialization completed in 12278 ms
+2024-07-25 16:02:12.251 INFO  [] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-25 16:02:12.443 INFO  [] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-07-25 16:02:13.011 INFO  [] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-25 16:02:13.372 INFO  [] - HikariPool-1 - Starting...
+2024-07-25 16:02:14.225 INFO  [] - HikariPool-1 - Start completed.
+2024-07-25 16:02:14.271 INFO  [] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-07-25 16:02:23.587 INFO  [] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-25 16:02:26.704 INFO  [] - [FETCHING CHANNEL CONFIGURATION]
+2024-07-25 16:02:27.206 INFO  [] - [FETCH CHANNEL CONFIGURATION FINISHED]
+2024-07-25 16:02:27.514 INFO  [] - [FETCHING ISO CONFIGURATION]
+2024-07-25 16:02:27.911 INFO  [] - Success fetch iso configuration with total configuration: 4
+2024-07-25 16:02:27.912 INFO  [] - [FETCH ISO CONFIGURATION FINISHED]
+2024-07-25 16:02:27.979 INFO  [] - [FETCHING FIELD ENCODING]
+2024-07-25 16:02:28.022 INFO  [] - Success fetch field encoding with total encoding: 4
+2024-07-25 16:02:28.022 INFO  [] - [FETCH FIELD ENCODING FINISHED]
+2024-07-25 16:02:28.086 INFO  [] - [FETCHING FIELD FORMAT]
+2024-07-25 16:02:28.296 INFO  [] - Success fetch field format with total format: 11
+2024-07-25 16:02:28.297 INFO  [] - [FETCH FIELD FORMAT FINISHED]
+2024-07-25 16:02:28.304 INFO  [] - [FETCHING HEADER CONFIGURATION]
+2024-07-25 16:02:28.328 INFO  [] - Success fetch header configuration with network id: 1 with total configuration: 0
+2024-07-25 16:02:28.334 INFO  [] - Success fetch header configuration with network id: 2 with total configuration: 0
+2024-07-25 16:02:28.334 INFO  [] - Network id: 3 not have header configuration, skipping...
+2024-07-25 16:02:28.338 INFO  [] - Success fetch header configuration with network id: 4 with total configuration: 0
+2024-07-25 16:02:28.339 INFO  [] - [FETCH HEADER CONFIGURATION FINISHED]
+2024-07-25 16:02:28.343 INFO  [] - [SETTING HEADER CONFIGURATION CONTAINER]
+2024-07-25 16:02:28.345 INFO  [] - Success fetch header configuration with total: 3
+2024-07-25 16:02:28.345 INFO  [] - [SUCCESS SETTING HEADER CONFIGURATION CONTAINER]
+2024-07-25 16:02:28.502 INFO  [] - [FETCHING FIELD CONFIGURATION]
+2024-07-25 16:02:30.086 INFO  [] - Success fetch field configuration
+2024-07-25 16:02:30.087 INFO  [] - [FETCH FIELD CONFIGURATION FINISHED]
+2024-07-25 16:02:30.157 INFO  [] - [FETCHING EMV CONFIGURATION]
+2024-07-25 16:02:30.184 WARN  [] - [THERE IS NO DATA FOR EMV CONFIGURATION]
+2024-07-25 16:02:30.184 INFO  [] - [FETCHING EMV CONFIGURATION FINISHED]
+2024-07-25 16:02:30.185 INFO  [] - [SETTING ISO CONFIGURATION CONTAINER]
+2024-07-25 16:02:30.186 INFO  [] - Success setting iso container with network id: 1 with total configuration: 0
+2024-07-25 16:02:30.187 INFO  [] - Success setting iso container with network id: 2 with total configuration: 0
+2024-07-25 16:02:30.214 ERROR [] - Error during setting iso container with network id: 3. Detail: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "hbm.fraudDetectionSystem.TransactionEngine.Core.ISO8583.SpringLogic.SubFieldConfiguration.SubFieldConfiguration.getPad()" is null
+2024-07-25 16:02:30.216 INFO  [] - Success setting iso container with network id: 4 with total configuration: 0
+2024-07-25 16:02:30.216 INFO  [] - [SETTING ISO CONFIGURATION CONTAINER FINISHED]
+2024-07-25 16:02:30.404 INFO  [] - [FETCHING JSON CHANNEL CONFIGURATION]
+2024-07-25 16:02:30.492 INFO  [] - [FETCH JSON CHANNEL CONFIGURATION FINISHED]
+2024-07-25 16:02:30.493 INFO  [] - [FETCHING JSON FIELD CONFIGURATION]
+2024-07-25 16:02:30.921 INFO  [] - Success fetch field configuration with base endpoint: v2
+2024-07-25 16:02:32.392 INFO  [] - Success fetch field configuration with base endpoint: Api/v1/Product
+2024-07-25 16:02:32.482 INFO  [] - Success fetch field configuration with base endpoint: v2
+2024-07-25 16:02:32.482 INFO  [] - Success fetch field configuration with base endpoint
+2024-07-25 16:02:32.482 INFO  [] - [FETCH JSON FIELD CONFIGURATION FINISHED]
+2024-07-25 16:02:32.558 INFO  [] - [FETCHING JSON HEADER CONFIGURATION]
+2024-07-25 16:02:32.657 INFO  [] - Success fetch json header configuration with base endpoint: v2
+2024-07-25 16:02:32.774 INFO  [] - Success fetch json header configuration with base endpoint: Api/v1/Product
+2024-07-25 16:02:32.791 INFO  [] - Success fetch json header configuration with base endpoint: v2
+2024-07-25 16:02:32.792 INFO  [] - Success fetch json header configuration with base endpoint
+2024-07-25 16:02:32.792 INFO  [] - [FETCH JSON HEADER CONFIGURATION FINISHED]
+2024-07-25 16:02:32.918 INFO  [] - [FETCHING JSON TRANS ATTR]
+2024-07-25 16:02:33.033 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 1 and total configuration: 11
+2024-07-25 16:02:33.050 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 2 and total configuration: 36
+2024-07-25 16:02:33.068 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 3 and total configuration: 35
+2024-07-25 16:02:33.089 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 4 and total configuration: 34
+2024-07-25 16:02:33.110 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 5 and total configuration: 11
+2024-07-25 16:02:33.129 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 6 and total configuration: 38
+2024-07-25 16:02:33.146 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 7 and total configuration: 43
+2024-07-25 16:02:33.162 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 8 and total configuration: 41
+2024-07-25 16:02:33.169 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 9 and total configuration: 8
+2024-07-25 16:02:33.176 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 11 and total configuration: 8
+2024-07-25 16:02:33.200 INFO  [] - Success fetch trans attr with config id: 4, endpoint id: 10 and total configuration: 39
+2024-07-25 16:02:33.200 INFO  [] - Success fetch trans attr
+2024-07-25 16:02:33.201 INFO  [] - [FETCH JSON TRANS ATTR FINISHED]
+2024-07-25 16:02:33.373 INFO  [] - [FETCHING TRANS MSG CONFIGURATION]
+2024-07-25 16:02:33.999 INFO  [] - Success fetch field configuration with network id: 1 with total configuration: 4
+2024-07-25 16:02:34.541 INFO  [] - Success fetch field configuration with network id: 2 with total configuration: 4
+2024-07-25 16:02:34.713 INFO  [] - Success fetch field configuration with network id: 3 with total configuration: 6
+2024-07-25 16:02:34.871 INFO  [] - Success fetch field configuration with network id: 4 with total configuration: 0
+2024-07-25 16:02:34.871 WARN  [] - [THERE IS NO DATA FOR TRANS MSG CONFIGURATION]
+2024-07-25 16:02:34.872 INFO  [] - [FETCH TRANS MSG CONFIGURATION FINISHED]
+2024-07-25 16:02:34.928 INFO  [] - [FETCHING EXTERNAL TRANS TYPE]
+2024-07-25 16:02:35.067 INFO  [] - Success fetch internal trans type with config id: 1 and total configuration: 5
+2024-07-25 16:02:35.067 INFO  [] - Success fetch internal trans type with config id: 2 and total configuration: 4
+2024-07-25 16:02:35.068 INFO  [] - Success fetch internal trans type with config id: 3 and total configuration: 7
+2024-07-25 16:02:35.068 INFO  [] - Success fetch internal trans type with config id: 4 and total configuration: 3
+2024-07-25 16:02:35.068 INFO  [] - Success fetch internal trans type with total configurations: 4
+2024-07-25 16:02:35.068 INFO  [] - [FETCH EXTERNAL TRANS TYPE FINISHED]
+2024-07-25 16:02:36.061 INFO  [] - [FETCHING EXTERNAL RESP CODE]
+2024-07-25 16:02:36.141 INFO  [] - Success fetch internal response with config id: 1 and total configuration: 3
+2024-07-25 16:02:36.141 INFO  [] - Success fetch internal response with config id: 2 and total configuration: 4
+2024-07-25 16:02:36.141 INFO  [] - Success fetch internal response with config id: 3 and total configuration: 1
+2024-07-25 16:02:36.142 INFO  [] - Success fetch internal response with config id: 4 and total configuration: 1
+2024-07-25 16:02:36.142 INFO  [] - Success fetch internal response code
+2024-07-25 16:02:36.142 INFO  [] - [FETCH EXTERNAL RESP CODE FINISHED]
+2024-07-25 16:02:38.328 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - Start executing OLIBS Jobs
+2024-07-25 16:02:38.421 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - Fetching auth token
+2024-07-25 16:02:38.853 INFO  [] - [FETCHING TRANSACTION ID SEQ]
+2024-07-25 16:02:38.896 INFO  [] - Success fetch transaction id seq, current value: 362869
+2024-07-25 16:02:38.897 INFO  [] - [FETCH TRANSACTION ID SEQ FINISHED]
+2024-07-25 16:02:38.899 INFO  [] - [FETCHING AUDIT ID SEQ]
+2024-07-25 16:02:38.923 WARN  [] - There is no sequence to be fetched.
+2024-07-25 16:02:38.923 INFO  [] - [FETCH AUDIT ID SEQ FINISHED]
+2024-07-25 16:02:39.317 INFO  [] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@135b387, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f3672ea, org.springframework.security.web.context.SecurityContextPersistenceFilter@639486c, org.springframework.security.web.header.HeaderWriterFilter@1740897b, org.springframework.web.filter.CorsFilter@6360eb3e, org.springframework.security.web.authentication.logout.LogoutFilter@2c3bd573, hbm.fraudDetectionSystem.SecurityEngine.Filter.JwtAuthorizationFilter@1878606, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cab0ffc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9c02527, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60d92110, org.springframework.security.web.session.SessionManagementFilter@6c9e1d4f, org.springframework.security.web.access.ExceptionTranslationFilter@2b504cd6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a84dae6]
+2024-07-25 16:02:39.374 INFO  [] - [FETCHING FIELD RULE COMPARATOR]
+2024-07-25 16:02:41.122 WARN  [] - [THERE IS NO DATA FOR FIELD RULE COMPARATOR]
+2024-07-25 16:02:41.123 INFO  [] - [FETCH FIELD RULE COMPARATOR FINISHED]
+2024-07-25 16:02:41.129 INFO  [] - [FETCHING SUPPORTED MTI]
+2024-07-25 16:02:41.185 INFO  [] - Success fetch MTI, with total MTI: 3
+2024-07-25 16:02:41.185 INFO  [] - [FETCH SUPPORTED MTI FINISHED]
+2024-07-25 16:02:41.188 INFO  [] - [FETCHING TRANS ATTR]
+2024-07-25 16:02:41.204 INFO  [] - Success fetch trans attr with config id: 1 and total configuration: 8
+2024-07-25 16:02:41.217 INFO  [] - Success fetch trans attr with config id: 2 and total configuration: 8
+2024-07-25 16:02:41.239 INFO  [] - Success fetch trans attr with config id: 3 and total configuration: 44
+2024-07-25 16:02:41.251 INFO  [] - Success fetch trans attr with config id: 4 and total configuration: 8
+2024-07-25 16:02:41.252 INFO  [] - Success fetch trans attr
+2024-07-25 16:02:41.252 INFO  [] - [FETCH TRANS ATTR FINISHED]
+2024-07-25 16:02:42.092 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - [903f7f40] REGISTERED
+2024-07-25 16:02:42.221 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - [903f7f40] CONNECT: /127.0.0.1:7543
+2024-07-25 16:02:42.241 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - [903f7f40] CLOSE
+2024-07-25 16:02:42.327 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 16:02:42.331 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-25 16:02:42.348 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - [524df011] REGISTERED
+2024-07-25 16:02:42.354 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - [524df011] CONNECT: /127.0.0.1:7543
+2024-07-25 16:02:42.332 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - [903f7f40] UNREGISTERED
+2024-07-25 16:02:42.358 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - [524df011] CLOSE
+2024-07-25 16:02:42.360 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 16:02:42.362 INFO  [bd77a001-766a-425e-99ad-593506e6d7dd] - [524df011] UNREGISTERED
+2024-07-25 16:02:44.576 INFO  [] - LiveReload server is running on port 35729
+2024-07-25 16:02:44.641 INFO  [] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-25 16:02:44.723 INFO  [] - Starting ProtocolHandler ["http-nio-8383"]
+2024-07-25 16:02:44.753 INFO  [] - Tomcat started on port(s): 8383 (http) with context path ''
+2024-07-25 16:02:44.857 INFO  [] - Started FraudDetectionSystemApplication in 50.206 seconds (JVM running for 55.29)
+2024-07-25 16:02:45.009 INFO  [] - Prepare container by config id
+2024-07-25 16:02:45.035 INFO  [] - Successfully prepare container
+2024-07-25 16:02:45.041 INFO  [] - Prepare container by config id
+2024-07-25 16:02:45.043 INFO  [] - Successfully prepare container
+2024-07-25 16:02:45.044 INFO  [] - Server listening on port: 8484
+2024-07-25 16:02:45.057 INFO  [] - Server listening on port: 8787
+2024-07-25 16:05:00.007 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - Start executing OLIBS Jobs
+2024-07-25 16:05:00.225 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - Fetching auth token
+2024-07-25 16:05:00.337 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - [77dcb67c] REGISTERED
+2024-07-25 16:05:00.350 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - [77dcb67c] CONNECT: /127.0.0.1:7543
+2024-07-25 16:05:00.357 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - [77dcb67c] CLOSE
+2024-07-25 16:05:00.372 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 16:05:00.373 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - [77dcb67c] UNREGISTERED
+2024-07-25 16:05:00.396 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-25 16:05:00.403 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - [a04452cf] REGISTERED
+2024-07-25 16:05:00.407 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - [a04452cf] CONNECT: /127.0.0.1:7543
+2024-07-25 16:05:00.414 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - [a04452cf] CLOSE
+2024-07-25 16:05:00.417 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-25 16:05:00.418 INFO  [9587bd47-d334-4d59-925a-f55951b0c835] - [a04452cf] UNREGISTERED
+2024-07-25 16:05:22.230 INFO  [] - HikariPool-1 - Shutdown initiated...
+2024-07-25 16:05:22.285 INFO  [] - HikariPool-1 - Shutdown completed.
+2024-07-26 14:15:01.872 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - Start executing OLIBS Jobs
+2024-07-26 14:15:02.966 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - Fetching auth token
+2024-07-26 14:15:03.419 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - [f4a9a7fa] REGISTERED
+2024-07-26 14:15:03.466 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - [f4a9a7fa] CONNECT: /127.0.0.1:7543
+2024-07-26 14:15:03.513 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - [f4a9a7fa] CLOSE
+2024-07-26 14:15:03.591 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:15:03.591 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - [f4a9a7fa] UNREGISTERED
+2024-07-26 14:15:03.591 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 14:15:03.622 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - [fb8849a4] REGISTERED
+2024-07-26 14:15:03.638 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - [fb8849a4] CONNECT: /127.0.0.1:7543
+2024-07-26 14:15:03.638 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - [fb8849a4] CLOSE
+2024-07-26 14:15:03.653 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:15:03.653 INFO  [a44c5780-8df9-40bd-80aa-c64ea0c3173e] - [fb8849a4] UNREGISTERED
+2024-07-26 14:17:33.589 WARN  [] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@2e232da8 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-07-26 14:20:00.019 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - Start executing OLIBS Jobs
+2024-07-26 14:20:00.269 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - Fetching auth token
+2024-07-26 14:20:00.360 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - [d7cd6df2] REGISTERED
+2024-07-26 14:20:00.366 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - [d7cd6df2] CONNECT: /127.0.0.1:7543
+2024-07-26 14:20:00.379 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - [d7cd6df2] CLOSE
+2024-07-26 14:20:00.397 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:20:00.399 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - [d7cd6df2] UNREGISTERED
+2024-07-26 14:20:00.399 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 14:20:00.411 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - [5aafb6a0] REGISTERED
+2024-07-26 14:20:00.411 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - [5aafb6a0] CONNECT: /127.0.0.1:7543
+2024-07-26 14:20:00.413 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - [5aafb6a0] CLOSE
+2024-07-26 14:20:00.419 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:20:00.419 INFO  [a1288cea-cf5e-41dd-88e5-0eabb74f2037] - [5aafb6a0] UNREGISTERED
+2024-07-26 14:22:34.722 WARN  [] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@4b243ab3 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-07-26 14:25:00.015 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - Start executing OLIBS Jobs
+2024-07-26 14:25:00.219 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - Fetching auth token
+2024-07-26 14:25:00.404 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - [40242991] REGISTERED
+2024-07-26 14:25:00.410 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - [40242991] CONNECT: /127.0.0.1:7543
+2024-07-26 14:25:00.426 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - [40242991] CLOSE
+2024-07-26 14:25:00.459 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:25:00.459 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - [40242991] UNREGISTERED
+2024-07-26 14:25:00.459 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 14:25:00.472 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - [bb9fcf31] REGISTERED
+2024-07-26 14:25:00.475 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - [bb9fcf31] CONNECT: /127.0.0.1:7543
+2024-07-26 14:25:00.477 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - [bb9fcf31] CLOSE
+2024-07-26 14:25:00.478 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:25:00.478 INFO  [b3e044d5-998a-49d3-802e-70f0a4e81407] - [bb9fcf31] UNREGISTERED
+2024-07-26 14:26:46.382 INFO  [] - HikariPool-1 - Shutdown initiated...
+2024-07-26 14:26:46.539 INFO  [] - HikariPool-1 - Shutdown completed.
+2024-07-26 14:27:26.996 INFO  [] - Starting FraudDetectionSystemApplication using Java 17.0.11 on asus with PID 2956 (C:\Users\ASUS\Documents\java-project\Dev-fraudDetectionSystem\target\classes started by ASUS in C:\Users\ASUS\Documents\java-project\Dev-fraudDetectionSystem)
+2024-07-26 14:27:27.023 INFO  [] - No active profile set, falling back to 1 default profile: "default"
+2024-07-26 14:27:27.509 INFO  [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-26 14:27:36.777 INFO  [] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-26 14:27:39.730 INFO  [] - Finished Spring Data repository scanning in 2882 ms. Found 67 JPA repository interfaces.
+2024-07-26 14:27:45.433 INFO  [] - Tomcat initialized with port(s): 8383 (http)
+2024-07-26 14:27:45.511 INFO  [] - Initializing ProtocolHandler ["http-nio-8383"]
+2024-07-26 14:27:45.527 INFO  [] - Starting service [Tomcat]
+2024-07-26 14:27:45.527 INFO  [] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-26 14:27:46.605 INFO  [] - Initializing Spring embedded WebApplicationContext
+2024-07-26 14:27:46.605 INFO  [] - Root WebApplicationContext: initialization completed in 19096 ms
+2024-07-26 14:27:49.374 INFO  [] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-26 14:27:49.765 INFO  [] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-07-26 14:27:50.874 INFO  [] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-26 14:27:51.655 INFO  [] - HikariPool-1 - Starting...
+2024-07-26 14:27:53.937 INFO  [] - HikariPool-1 - Start completed.
+2024-07-26 14:27:54.046 INFO  [] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-07-26 14:28:05.470 INFO  [] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-26 14:28:05.501 INFO  [] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-26 14:28:08.532 INFO  [] - [FETCHING CHANNEL CONFIGURATION]
+2024-07-26 14:28:08.860 INFO  [] - [FETCH CHANNEL CONFIGURATION FINISHED]
+2024-07-26 14:28:09.235 INFO  [] - [FETCHING ISO CONFIGURATION]
+2024-07-26 14:28:09.938 INFO  [] - Success fetch iso configuration with total configuration: 4
+2024-07-26 14:28:09.938 INFO  [] - [FETCH ISO CONFIGURATION FINISHED]
+2024-07-26 14:28:10.063 INFO  [] - [FETCHING FIELD ENCODING]
+2024-07-26 14:28:10.126 INFO  [] - Success fetch field encoding with total encoding: 4
+2024-07-26 14:28:10.126 INFO  [] - [FETCH FIELD ENCODING FINISHED]
+2024-07-26 14:28:10.251 INFO  [] - [FETCHING FIELD FORMAT]
+2024-07-26 14:28:10.360 INFO  [] - Success fetch field format with total format: 11
+2024-07-26 14:28:10.360 INFO  [] - [FETCH FIELD FORMAT FINISHED]
+2024-07-26 14:28:10.360 INFO  [] - [FETCHING HEADER CONFIGURATION]
+2024-07-26 14:28:10.407 INFO  [] - Success fetch header configuration with network id: 1 with total configuration: 0
+2024-07-26 14:28:10.423 INFO  [] - Success fetch header configuration with network id: 2 with total configuration: 0
+2024-07-26 14:28:10.423 INFO  [] - Network id: 3 not have header configuration, skipping...
+2024-07-26 14:28:10.423 INFO  [] - Success fetch header configuration with network id: 4 with total configuration: 0
+2024-07-26 14:28:10.423 INFO  [] - [FETCH HEADER CONFIGURATION FINISHED]
+2024-07-26 14:28:10.438 INFO  [] - [SETTING HEADER CONFIGURATION CONTAINER]
+2024-07-26 14:28:10.438 INFO  [] - Success fetch header configuration with total: 3
+2024-07-26 14:28:10.438 INFO  [] - [SUCCESS SETTING HEADER CONFIGURATION CONTAINER]
+2024-07-26 14:28:10.766 INFO  [] - [FETCHING FIELD CONFIGURATION]
+2024-07-26 14:28:11.720 INFO  [] - Success fetch field configuration
+2024-07-26 14:28:11.720 INFO  [] - [FETCH FIELD CONFIGURATION FINISHED]
+2024-07-26 14:28:11.860 INFO  [] - [FETCHING EMV CONFIGURATION]
+2024-07-26 14:28:11.985 WARN  [] - [THERE IS NO DATA FOR EMV CONFIGURATION]
+2024-07-26 14:28:11.985 INFO  [] - [FETCHING EMV CONFIGURATION FINISHED]
+2024-07-26 14:28:11.985 INFO  [] - [SETTING ISO CONFIGURATION CONTAINER]
+2024-07-26 14:28:12.063 ERROR [] - Error during setting iso container with network id: 3. Detail: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "hbm.fraudDetectionSystem.TransactionEngine.Core.ISO8583.SpringLogic.SubFieldConfiguration.SubFieldConfiguration.getPad()" is null
+2024-07-26 14:28:12.079 INFO  [] - Success setting iso container
+2024-07-26 14:28:12.079 INFO  [] - [SETTING ISO CONFIGURATION CONTAINER FINISHED]
+2024-07-26 14:28:12.782 INFO  [] - [FETCHING JSON CHANNEL CONFIGURATION]
+2024-07-26 14:28:12.860 INFO  [] - [FETCH JSON CHANNEL CONFIGURATION FINISHED]
+2024-07-26 14:28:12.860 INFO  [] - [FETCHING JSON FIELD CONFIGURATION]
+2024-07-26 14:28:13.470 INFO  [] - Success fetch field configuration with base endpoint: v2
+2024-07-26 14:28:14.501 INFO  [] - Success fetch field configuration with base endpoint: Api/v1/Product
+2024-07-26 14:28:14.626 INFO  [] - Success fetch field configuration with base endpoint: v2
+2024-07-26 14:28:14.626 INFO  [] - Success processing fetch field configuration
+2024-07-26 14:28:14.626 INFO  [] - [FETCH JSON FIELD CONFIGURATION FINISHED]
+2024-07-26 14:28:14.735 INFO  [] - [FETCHING JSON HEADER CONFIGURATION]
+2024-07-26 14:28:14.860 INFO  [] - Success fetch json header configuration with base endpoint: v2
+2024-07-26 14:28:15.063 INFO  [] - Success fetch json header configuration with base endpoint: Api/v1/Product
+2024-07-26 14:28:15.079 INFO  [] - Success fetch json header configuration with base endpoint: v2
+2024-07-26 14:28:15.079 INFO  [] - Success fetch json header configuration with base endpoint
+2024-07-26 14:28:15.079 INFO  [] - [FETCH JSON HEADER CONFIGURATION FINISHED]
+2024-07-26 14:28:15.494 INFO  [] - [FETCHING JSON TRANS ATTR]
+2024-07-26 14:28:16.080 INFO  [] - Success fetch JSON trans attr
+2024-07-26 14:28:16.080 INFO  [] - [FETCH JSON TRANS ATTR FINISHED]
+2024-07-26 14:28:16.706 INFO  [] - [FETCHING TRANS MSG CONFIGURATION]
+2024-07-26 14:28:19.322 INFO  [] - Success fetch field configuration [Trans Msg Configuration]
+2024-07-26 14:28:19.322 INFO  [] - [FETCH TRANS MSG CONFIGURATION FINISHED]
+2024-07-26 14:28:19.525 INFO  [] - [FETCHING EXTERNAL TRANS TYPE]
+2024-07-26 14:28:19.712 INFO  [] - Success fetch internal trans type
+2024-07-26 14:28:19.712 INFO  [] - [FETCH EXTERNAL TRANS TYPE FINISHED]
+2024-07-26 14:28:32.834 INFO  [] - [FETCHING EXTERNAL RESP CODE]
+2024-07-26 14:28:33.343 INFO  [] - Success fetch internal response code
+2024-07-26 14:28:33.343 INFO  [] - [FETCH EXTERNAL RESP CODE FINISHED]
+2024-07-26 14:28:38.614 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - Start executing OLIBS Jobs
+2024-07-26 14:28:38.724 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - Fetching auth token
+2024-07-26 14:28:39.083 INFO  [] - [FETCHING TRANSACTION ID SEQ]
+2024-07-26 14:28:39.144 INFO  [] - Success fetch transaction id seq, current value: 7057
+2024-07-26 14:28:39.144 INFO  [] - [FETCH TRANSACTION ID SEQ FINISHED]
+2024-07-26 14:28:39.144 INFO  [] - [FETCHING AUDIT ID SEQ]
+2024-07-26 14:28:39.160 WARN  [] - There is no sequence to be fetched.
+2024-07-26 14:28:39.160 INFO  [] - [FETCH AUDIT ID SEQ FINISHED]
+2024-07-26 14:28:39.681 INFO  [] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4d2601fb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5876f5f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f0b05c1, org.springframework.security.web.header.HeaderWriterFilter@746adf45, org.springframework.web.filter.CorsFilter@116790cd, org.springframework.security.web.authentication.logout.LogoutFilter@68afb505, hbm.fraudDetectionSystem.SecurityEngine.Filter.JwtAuthorizationFilter@1440808b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@dbdb2cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ce8530e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18bb5519, org.springframework.security.web.session.SessionManagementFilter@62dd6a7f, org.springframework.security.web.access.ExceptionTranslationFilter@2cb02707, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8c59bf5]
+2024-07-26 14:28:39.821 INFO  [] - [FETCHING FIELD RULE COMPARATOR]
+2024-07-26 14:28:43.009 WARN  [] - [THERE IS NO DATA FOR FIELD RULE COMPARATOR]
+2024-07-26 14:28:43.009 INFO  [] - [FETCH FIELD RULE COMPARATOR FINISHED]
+2024-07-26 14:28:43.009 INFO  [] - [FETCHING SUPPORTED MTI]
+2024-07-26 14:28:43.103 INFO  [] - Success fetch MTI, with total MTI: 3
+2024-07-26 14:28:43.103 INFO  [] - [FETCH SUPPORTED MTI FINISHED]
+2024-07-26 14:28:43.103 INFO  [] - [FETCHING TRANS ATTR]
+2024-07-26 14:28:43.181 INFO  [] - Success fetch trans attr
+2024-07-26 14:28:43.181 INFO  [] - [FETCH TRANS ATTR FINISHED]
+2024-07-26 14:28:45.770 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - [8d114713] REGISTERED
+2024-07-26 14:28:46.031 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - [8d114713] CONNECT: /127.0.0.1:7543
+2024-07-26 14:28:46.039 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - [8d114713] CLOSE
+2024-07-26 14:28:46.117 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:28:46.117 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 14:28:46.117 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - [8d114713] UNREGISTERED
+2024-07-26 14:28:46.189 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - [740bf474] REGISTERED
+2024-07-26 14:28:46.194 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - [740bf474] CONNECT: /127.0.0.1:7543
+2024-07-26 14:28:46.194 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - [740bf474] CLOSE
+2024-07-26 14:28:46.194 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:28:46.194 INFO  [a4bd3218-1407-4502-9c4d-4d57572cf439] - [740bf474] UNREGISTERED
+2024-07-26 14:28:49.194 INFO  [] - LiveReload server is running on port 35729
+2024-07-26 14:28:49.319 INFO  [] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-26 14:28:49.555 INFO  [] - Starting ProtocolHandler ["http-nio-8383"]
+2024-07-26 14:28:49.617 INFO  [] - Tomcat started on port(s): 8383 (http) with context path ''
+2024-07-26 14:28:49.789 INFO  [] - Started FraudDetectionSystemApplication in 85.615 seconds (JVM running for 90.181)
+2024-07-26 14:28:50.211 INFO  [] - Prepare container by config id
+2024-07-26 14:28:50.258 INFO  [] - Successfully prepare container
+2024-07-26 14:28:50.289 INFO  [] - Prepare container by config id
+2024-07-26 14:28:50.289 INFO  [] - Successfully prepare container
+2024-07-26 14:28:50.305 INFO  [] - Server listening on port: 8484
+2024-07-26 14:28:50.336 INFO  [] - Server listening on port: 8787
+2024-07-26 14:30:00.021 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - Start executing OLIBS Jobs
+2024-07-26 14:30:00.115 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - Fetching auth token
+2024-07-26 14:30:00.161 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - [33e99fd1] REGISTERED
+2024-07-26 14:30:00.161 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - [33e99fd1] CONNECT: /127.0.0.1:7543
+2024-07-26 14:30:00.161 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - [33e99fd1] CLOSE
+2024-07-26 14:30:00.177 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:30:00.177 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 14:30:00.177 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - [33e99fd1] UNREGISTERED
+2024-07-26 14:30:00.189 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - [6a61d109] REGISTERED
+2024-07-26 14:30:00.189 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - [6a61d109] CONNECT: /127.0.0.1:7543
+2024-07-26 14:30:00.189 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - [6a61d109] CLOSE
+2024-07-26 14:30:00.189 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:30:00.189 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - [6a61d109] UNREGISTERED
+2024-07-26 14:30:00.189 INFO  [a5ac18d9-d558-4345-9284-1620a35a23ca] - [6a61d109] UNREGISTERED
+2024-07-26 14:34:57.840 INFO  [] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-26 14:34:57.887 INFO  [] - HikariPool-1 - Shutdown initiated...
+2024-07-26 14:34:58.138 INFO  [] - HikariPool-1 - Shutdown completed.
+2024-07-26 14:37:04.837 INFO  [] - Starting FraudDetectionSystemApplication using Java 17.0.11 on asus with PID 8796 (C:\Users\ASUS\Documents\java-project\Dev-fraudDetectionSystem\target\classes started by ASUS in C:\Users\ASUS\Documents\java-project\Dev-fraudDetectionSystem)
+2024-07-26 14:37:04.899 INFO  [] - No active profile set, falling back to 1 default profile: "default"
+2024-07-26 14:37:05.456 INFO  [] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-26 14:37:14.116 INFO  [] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-26 14:37:17.323 INFO  [] - Finished Spring Data repository scanning in 3146 ms. Found 67 JPA repository interfaces.
+2024-07-26 14:37:22.356 INFO  [] - Tomcat initialized with port(s): 8383 (http)
+2024-07-26 14:37:22.387 INFO  [] - Initializing ProtocolHandler ["http-nio-8383"]
+2024-07-26 14:37:22.387 INFO  [] - Starting service [Tomcat]
+2024-07-26 14:37:22.387 INFO  [] - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-07-26 14:37:22.825 INFO  [] - Initializing Spring embedded WebApplicationContext
+2024-07-26 14:37:22.825 INFO  [] - Root WebApplicationContext: initialization completed in 17369 ms
+2024-07-26 14:37:24.873 INFO  [] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-26 14:37:25.232 INFO  [] - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-07-26 14:37:26.311 INFO  [] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-26 14:37:26.936 INFO  [] - HikariPool-1 - Starting...
+2024-07-26 14:37:28.805 INFO  [] - HikariPool-1 - Start completed.
+2024-07-26 14:37:28.898 INFO  [] - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-07-26 14:37:41.235 INFO  [] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-26 14:37:44.391 INFO  [] - [FETCHING CHANNEL CONFIGURATION]
+2024-07-26 14:37:44.751 INFO  [] - [FETCH CHANNEL CONFIGURATION FINISHED]
+2024-07-26 14:37:45.407 INFO  [] - [FETCHING ISO CONFIGURATION]
+2024-07-26 14:37:46.079 INFO  [] - Success fetch iso configuration with total configuration: 4
+2024-07-26 14:37:46.079 INFO  [] - [FETCH ISO CONFIGURATION FINISHED]
+2024-07-26 14:37:46.235 INFO  [] - [FETCHING FIELD ENCODING]
+2024-07-26 14:37:46.298 INFO  [] - Success fetch field encoding with total encoding: 4
+2024-07-26 14:37:46.298 INFO  [] - [FETCH FIELD ENCODING FINISHED]
+2024-07-26 14:37:46.438 INFO  [] - [FETCHING FIELD FORMAT]
+2024-07-26 14:37:46.532 INFO  [] - Success fetch field format with total format: 11
+2024-07-26 14:37:46.532 INFO  [] - [FETCH FIELD FORMAT FINISHED]
+2024-07-26 14:37:46.548 INFO  [] - [FETCHING HEADER CONFIGURATION]
+2024-07-26 14:37:46.595 INFO  [] - Success fetch header configuration with network id: 1 with total configuration: 0
+2024-07-26 14:37:46.595 INFO  [] - Success fetch header configuration with network id: 2 with total configuration: 0
+2024-07-26 14:37:46.595 INFO  [] - Network id: 3 not have header configuration, skipping...
+2024-07-26 14:37:46.626 INFO  [] - Success fetch header configuration with network id: 4 with total configuration: 0
+2024-07-26 14:37:46.626 INFO  [] - [FETCH HEADER CONFIGURATION FINISHED]
+2024-07-26 14:37:46.642 INFO  [] - [SETTING HEADER CONFIGURATION CONTAINER]
+2024-07-26 14:37:46.642 INFO  [] - Success fetch header configuration with total: 3
+2024-07-26 14:37:46.642 INFO  [] - [SUCCESS SETTING HEADER CONFIGURATION CONTAINER]
+2024-07-26 14:37:47.032 INFO  [] - [FETCHING FIELD CONFIGURATION]
+2024-07-26 14:37:47.923 INFO  [] - Success fetch field configuration
+2024-07-26 14:37:47.923 INFO  [] - [FETCH FIELD CONFIGURATION FINISHED]
+2024-07-26 14:37:48.080 INFO  [] - [FETCHING EMV CONFIGURATION]
+2024-07-26 14:37:48.142 WARN  [] - [THERE IS NO DATA FOR EMV CONFIGURATION]
+2024-07-26 14:37:48.142 INFO  [] - [FETCHING EMV CONFIGURATION FINISHED]
+2024-07-26 14:37:48.142 INFO  [] - [SETTING ISO CONFIGURATION CONTAINER]
+2024-07-26 14:37:48.142 INFO  [] - Success setting iso container with network id: 1 with total configuration: 0
+2024-07-26 14:37:48.142 INFO  [] - Success setting iso container with network id: 2 with total configuration: 0
+2024-07-26 14:37:48.251 ERROR [] - Error during setting iso container with network id: 3. Detail: Cannot invoke "java.lang.Boolean.booleanValue()" because the return value of "hbm.fraudDetectionSystem.TransactionEngine.Core.ISO8583.SpringLogic.SubFieldConfiguration.SubFieldConfiguration.getPad()" is null
+2024-07-26 14:37:48.251 INFO  [] - Success setting iso container with network id: 4 with total configuration: 0
+2024-07-26 14:37:48.251 INFO  [] - [SETTING ISO CONFIGURATION CONTAINER FINISHED]
+2024-07-26 14:37:48.642 INFO  [] - [FETCHING JSON CHANNEL CONFIGURATION]
+2024-07-26 14:37:48.705 INFO  [] - [FETCH JSON CHANNEL CONFIGURATION FINISHED]
+2024-07-26 14:37:48.705 INFO  [] - [FETCHING JSON FIELD CONFIGURATION]
+2024-07-26 14:37:49.283 INFO  [] - Success fetch field configuration with base endpoint: v2
+2024-07-26 14:37:50.220 INFO  [] - Success fetch field configuration with base endpoint: Api/v1/Product
+2024-07-26 14:37:50.330 INFO  [] - Success fetch field configuration with base endpoint: v2
+2024-07-26 14:37:50.330 INFO  [] - Success processing fetch field configuration
+2024-07-26 14:37:50.330 INFO  [] - [FETCH JSON FIELD CONFIGURATION FINISHED]
+2024-07-26 14:37:50.470 INFO  [] - [FETCHING JSON HEADER CONFIGURATION]
+2024-07-26 14:37:50.595 INFO  [] - Success fetch json header configuration with base endpoint: v2
+2024-07-26 14:37:50.736 INFO  [] - Success fetch json header configuration with base endpoint: Api/v1/Product
+2024-07-26 14:37:50.751 INFO  [] - Success fetch json header configuration with base endpoint: v2
+2024-07-26 14:37:50.751 INFO  [] - Success fetch json header configuration with base endpoint
+2024-07-26 14:37:50.751 INFO  [] - [FETCH JSON HEADER CONFIGURATION FINISHED]
+2024-07-26 14:37:50.986 INFO  [] - [FETCHING JSON TRANS ATTR]
+2024-07-26 14:37:51.079 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 1 and total configuration: 11
+2024-07-26 14:37:51.126 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 2 and total configuration: 36
+2024-07-26 14:37:51.173 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 3 and total configuration: 35
+2024-07-26 14:37:51.189 INFO  [] - Success fetch trans attr with config id: 1, endpoint id: 4 and total configuration: 34
+2024-07-26 14:37:51.205 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 5 and total configuration: 11
+2024-07-26 14:37:51.236 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 6 and total configuration: 38
+2024-07-26 14:37:51.268 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 7 and total configuration: 43
+2024-07-26 14:37:51.283 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 8 and total configuration: 41
+2024-07-26 14:37:51.299 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 9 and total configuration: 8
+2024-07-26 14:37:51.314 INFO  [] - Success fetch trans attr with config id: 2, endpoint id: 11 and total configuration: 8
+2024-07-26 14:37:51.330 INFO  [] - Success fetch trans attr with config id: 4, endpoint id: 10 and total configuration: 39
+2024-07-26 14:37:51.330 INFO  [] - Success fetch trans attr
+2024-07-26 14:37:51.330 INFO  [] - [FETCH JSON TRANS ATTR FINISHED]
+2024-07-26 14:37:51.658 INFO  [] - [FETCHING TRANS MSG CONFIGURATION]
+2024-07-26 14:37:52.143 INFO  [] - Success fetch field configuration with network id: 1 with total configuration: 4
+2024-07-26 14:37:52.752 INFO  [] - Success fetch field configuration with network id: 2 with total configuration: 4
+2024-07-26 14:37:53.284 INFO  [] - Success fetch field configuration with network id: 3 with total configuration: 6
+2024-07-26 14:37:53.752 INFO  [] - Success fetch field configuration with network id: 4 with total configuration: 0
+2024-07-26 14:37:53.752 WARN  [] - [THERE IS NO DATA FOR TRANS MSG CONFIGURATION]
+2024-07-26 14:37:53.752 INFO  [] - [FETCH TRANS MSG CONFIGURATION FINISHED]
+2024-07-26 14:37:53.862 INFO  [] - [FETCHING EXTERNAL TRANS TYPE]
+2024-07-26 14:37:54.096 INFO  [] - Success fetch internal trans type with config id: 1 and total configuration: 5
+2024-07-26 14:37:54.112 INFO  [] - Success fetch internal trans type with config id: 2 and total configuration: 4
+2024-07-26 14:37:54.112 INFO  [] - Success fetch internal trans type with config id: 3 and total configuration: 7
+2024-07-26 14:37:54.112 INFO  [] - Success fetch internal trans type with config id: 4 and total configuration: 3
+2024-07-26 14:37:54.112 INFO  [] - Success fetch internal trans type with total configurations: 4
+2024-07-26 14:37:54.112 INFO  [] - [FETCH EXTERNAL TRANS TYPE FINISHED]
+2024-07-26 14:37:55.978 INFO  [] - [FETCHING EXTERNAL RESP CODE]
+2024-07-26 14:37:56.103 INFO  [] - Success fetch internal response with config id: 1 and total configuration: 3
+2024-07-26 14:37:56.103 INFO  [] - Success fetch internal response with config id: 2 and total configuration: 4
+2024-07-26 14:37:56.103 INFO  [] - Success fetch internal response with config id: 3 and total configuration: 1
+2024-07-26 14:37:56.103 INFO  [] - Success fetch internal response with config id: 4 and total configuration: 1
+2024-07-26 14:37:56.103 INFO  [] - Success fetch internal response code
+2024-07-26 14:37:56.103 INFO  [] - [FETCH EXTERNAL RESP CODE FINISHED]
+2024-07-26 14:37:59.744 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - Start executing OLIBS Jobs
+2024-07-26 14:37:59.915 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - Fetching auth token
+2024-07-26 14:38:00.265 INFO  [] - [FETCHING TRANSACTION ID SEQ]
+2024-07-26 14:38:00.327 INFO  [] - Success fetch transaction id seq, current value: 362871
+2024-07-26 14:38:00.327 INFO  [] - [FETCH TRANSACTION ID SEQ FINISHED]
+2024-07-26 14:38:00.327 INFO  [] - [FETCHING AUDIT ID SEQ]
+2024-07-26 14:38:00.327 WARN  [] - There is no sequence to be fetched.
+2024-07-26 14:38:00.327 INFO  [] - [FETCH AUDIT ID SEQ FINISHED]
+2024-07-26 14:38:00.695 INFO  [] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5fd27f95, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40cba1e5, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f069a5c, org.springframework.security.web.header.HeaderWriterFilter@5378dd51, org.springframework.web.filter.CorsFilter@599aa081, org.springframework.security.web.authentication.logout.LogoutFilter@38fb42d, hbm.fraudDetectionSystem.SecurityEngine.Filter.JwtAuthorizationFilter@53ee9274, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f6e18ff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29bdde1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@471c0985, org.springframework.security.web.session.SessionManagementFilter@1dea5152, org.springframework.security.web.access.ExceptionTranslationFilter@6603cdb1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14d9b912]
+2024-07-26 14:38:01.154 INFO  [] - [FETCHING FIELD RULE COMPARATOR]
+2024-07-26 14:38:03.026 WARN  [] - [THERE IS NO DATA FOR FIELD RULE COMPARATOR]
+2024-07-26 14:38:03.026 INFO  [] - [FETCH FIELD RULE COMPARATOR FINISHED]
+2024-07-26 14:38:03.026 INFO  [] - [FETCHING SUPPORTED MTI]
+2024-07-26 14:38:03.088 INFO  [] - Success fetch MTI, with total MTI: 3
+2024-07-26 14:38:03.088 INFO  [] - [FETCH SUPPORTED MTI FINISHED]
+2024-07-26 14:38:03.088 INFO  [] - [FETCHING TRANS ATTR]
+2024-07-26 14:38:03.119 INFO  [] - Success fetch trans attr with config id: 1 and total configuration: 8
+2024-07-26 14:38:03.151 INFO  [] - Success fetch trans attr with config id: 2 and total configuration: 8
+2024-07-26 14:38:03.182 INFO  [] - Success fetch trans attr with config id: 3 and total configuration: 44
+2024-07-26 14:38:03.197 INFO  [] - Success fetch trans attr with config id: 4 and total configuration: 8
+2024-07-26 14:38:03.197 INFO  [] - Success fetch trans attr
+2024-07-26 14:38:03.197 INFO  [] - [FETCH TRANS ATTR FINISHED]
+2024-07-26 14:38:03.807 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - [9db7b469] REGISTERED
+2024-07-26 14:38:03.979 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - [9db7b469] CONNECT: /127.0.0.1:7543
+2024-07-26 14:38:03.994 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - [9db7b469] CLOSE
+2024-07-26 14:38:04.057 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:38:04.057 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - Start executing jobs: fds/InquiryActivationDormanAccount
+2024-07-26 14:38:04.057 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - [9db7b469] UNREGISTERED
+2024-07-26 14:38:04.146 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - [0b0adcaf] REGISTERED
+2024-07-26 14:38:04.146 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - [0b0adcaf] CONNECT: /127.0.0.1:7543
+2024-07-26 14:38:04.146 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - [0b0adcaf] CLOSE
+2024-07-26 14:38:04.146 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - Connection refused: no further information: /127.0.0.1:7543; nested exception is io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:7543
+2024-07-26 14:38:04.161 INFO  [215dacf3-cf66-4a79-8a33-8baa9a893015] - [0b0adcaf] UNREGISTERED
+2024-07-26 14:38:07.552 INFO  [] - LiveReload server is running on port 35729
+2024-07-26 14:38:07.646 INFO  [] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-07-26 14:38:07.848 INFO  [] - Starting ProtocolHandler ["http-nio-8383"]
+2024-07-26 14:38:07.957 INFO  [] - Tomcat started on port(s): 8383 (http) with context path ''
+2024-07-26 14:38:08.082 INFO  [] - Started FraudDetectionSystemApplication in 66.367 seconds (JVM running for 78.079)
+2024-07-26 14:38:08.385 INFO  [] - Prepare container by config id
+2024-07-26 14:38:08.432 INFO  [] - Successfully prepare container
+2024-07-26 14:38:08.448 INFO  [] - Prepare container by config id
+2024-07-26 14:38:08.448 INFO  [] - Successfully prepare container
+2024-07-26 14:38:08.479 INFO  [] - Server listening on port: 8484
+2024-07-26 14:38:08.479 INFO  [] - Server listening on port: 8787
+2024-07-26 14:39:57.315 WARN  [] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@f4b31a6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-07-26 14:40:16.403 WARN  [] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@25a766f6 (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-07-26 14:40:16.551 WARN  [] - SQL Error: 0, SQLState: 08001
+2024-07-26 14:40:16.553 ERROR [] - HikariPool-1 - Connection is not available, request timed out after 33701ms.
+2024-07-26 14:40:16.556 ERROR [] - The connection attempt failed.
+2024-07-26 14:40:17.078 ERROR [] - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at hbm.fraudDetectionSystem.GeneralComponent.SpringLogic.CurrTrans.CurrTransCacheService$$EnhancerBySpringCGLIB$$ca3b139d.removeExpiredCache(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor167.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:48)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:111)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:138)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:276)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:284)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:246)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:164)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:421)
+	... 20 common frames omitted
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 33701ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:696)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:197)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:38)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:108)
+	... 27 common frames omitted
+Caused by: org.postgresql.util.PSQLException: The connection attempt failed.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:331)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:223)
+	at org.postgresql.Driver.makeConnection(Driver.java:402)
+	at org.postgresql.Driver.connect(Driver.java:261)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	... 3 common frames omitted
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at org.postgresql.core.PGStream.createSocket(PGStream.java:241)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:98)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:109)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:235)
+	... 15 common frames omitted
+2024-07-26 14:40:26.618 INFO  [] - HikariPool-1 - Shutdown initiated...
+2024-07-26 14:40:27.333 WARN  [] - HikariPool-1 - Failed to validate connection org.postgresql.jdbc.PgConnection@1172420a (This connection has been closed.). Possibly consider using a shorter maxLifetime value.
+2024-07-26 14:40:27.338 WARN  [] - SQL Error: 0, SQLState: null
+2024-07-26 14:40:27.339 ERROR [] - HikariPool-1 - Interrupted during connection acquisition
+2024-07-26 14:40:27.349 ERROR [] - Unexpected error occurred in scheduled task
+org.springframework.transaction.CannotCreateTransactionException: Could not open JPA EntityManager for transaction; nested exception is org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:467)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:400)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:373)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:595)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:382)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at hbm.fraudDetectionSystem.GeneralComponent.SpringLogic.CurrTrans.CurrTransCacheService$$EnhancerBySpringCGLIB$$ca3b139d.saveDataToRepo(<generated>)
+	at jdk.internal.reflect.GeneratedMethodAccessor168.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: org.hibernate.exception.GenericJDBCException: Unable to acquire JDBC Connection
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:42)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:111)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getPhysicalConnection(LogicalConnectionManagedImpl.java:138)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.getConnectionForTransactionManagement(LogicalConnectionManagedImpl.java:276)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.begin(LogicalConnectionManagedImpl.java:284)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.begin(JdbcResourceLocalTransactionCoordinatorImpl.java:246)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.begin(TransactionImpl.java:83)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.beginTransaction(HibernateJpaDialect.java:164)
+	at org.springframework.orm.jpa.JpaTransactionManager.doBegin(JpaTransactionManager.java:421)
+	... 20 common frames omitted
+Caused by: java.sql.SQLException: HikariPool-1 - Interrupted during connection acquisition
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:162)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.internal.NonContextualJdbcConnectionAccess.obtainConnection(NonContextualJdbcConnectionAccess.java:38)
+	at org.hibernate.resource.jdbc.internal.LogicalConnectionManagedImpl.acquireConnectionIfNeeded(LogicalConnectionManagedImpl.java:108)
+	... 27 common frames omitted
+Caused by: java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:906)
+	at com.zaxxer.hikari.util.ConcurrentBag.borrow(ConcurrentBag.java:151)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:180)
+	... 32 common frames omitted
+2024-07-26 14:40:40.151 INFO  [] - HikariPool-1 - Shutdown completed.

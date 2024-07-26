@@ -275,18 +275,6 @@
     </root>
 
     <!-- Set logging levels for specific packages to output to CONSOLE -->
-    <logger name="org.springframework.boot" level="INFO" additivity="false">
-        <appender-ref ref="CONSOLE"/>
-        <appender-ref ref="ROOT-APPENDER"/>
-    </logger>
-    <logger name="org.springframework.data" level="INFO" additivity="false">
-        <appender-ref ref="CONSOLE"/>
-        <appender-ref ref="ROOT-APPENDER"/>
-    </logger>
-    <logger name="org.hibernate" level="INFO" additivity="false">
-        <appender-ref ref="CONSOLE"/>
-        <appender-ref ref="ROOT-APPENDER"/>
-    </logger>
     <logger name="org.apache.catalina" level="INFO" additivity="false">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="ROOT-APPENDER"/>
@@ -294,14 +282,36 @@
     <logger name="org.apache.tomcat" level="INFO" additivity="false">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="ROOT-APPENDER"/>
+        <appender-ref ref="ERROR-LOG"/>
     </logger>
-    <logger name="com.zaxxer.hikari" level="INFO" additivity="false">
+    <!-- Logger for com.zaxxer.hikari -->
+    <logger name="com.zaxxer.hikari" additivity="false">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="ROOT-APPENDER"/>
+        <appender-ref ref="ERROR-LOG"/>
     </logger>
-    <logger name="org.springframework.orm.jpa" level="INFO" additivity="false">
+
+    <logger name="org.springframework.boot" additivity="false">
         <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="ROOT-APPENDER"/>
+        <appender-ref ref="ERROR-LOG"/>
     </logger>
+    <logger name="org.springframework.data" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="ROOT-APPENDER"/>
+        <appender-ref ref="ERROR-LOG"/>
+    </logger>
+    <logger name="org.springframework.orm.jpa" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="ROOT-APPENDER"/>
+        <appender-ref ref="ERROR-LOG"/>
+    </logger>
+    <logger name="org.hibernate" additivity="false">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="ROOT-APPENDER"/>
+        <appender-ref ref="ERROR-LOG"/>
+    </logger>
+
 
     <!--  Channel Engine Logger  -->
     <logger name="hbm.fraudDetectionSystem.ChannelEngine.Core.ISO8583">
